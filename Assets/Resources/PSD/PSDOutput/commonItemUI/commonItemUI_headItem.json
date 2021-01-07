@@ -1,0 +1,90 @@
+{
+    "children": [
+        {
+            "children": [], 
+            "classname": "IMAGE", 
+            "name": "landHead", 
+            "options": {
+                "bottom": 0, 
+                "height": 74, 
+                "isScaleImage": false, 
+                "left": 0, 
+                "link": "commonItemUI#landHead.png", 
+                "opacity": 255, 
+                "property": "", 
+                "right": 0, 
+                "top": 0, 
+                "width": 57, 
+                "x": 16, 
+                "y": 10
+            }
+        }, 
+        {
+            "children": [], 
+            "classname": "IMAGE", 
+            "name": "frameHead", 
+            "options": {
+                "bottom": 0, 
+                "height": 71, 
+                "isScaleImage": false, 
+                "left": 0, 
+                "link": "commonItemUI#frameHead.png", 
+                "opacity": 255, 
+                "property": "", 
+                "right": 0, 
+                "top": 0, 
+                "width": 45, 
+                "x": 24, 
+                "y": 13
+            }
+        }, 
+        {
+            "children": [], 
+            "classname": "IMAGE", 
+            "name": "headBg2", 
+            "options": {
+                "bottom": 0, 
+                "height": 74, 
+                "isScaleImage": false, 
+                "left": 0, 
+                "link": "commonItemUI#headBg2.png", 
+                "opacity": 255, 
+                "property": "", 
+                "right": 0, 
+                "top": 0, 
+                "width": 74, 
+                "x": 9, 
+                "y": 10
+            }
+        }, 
+        {
+            "children": [], 
+            "classname": "IMAGE", 
+            "name": "headBg", 
+            "options": {
+                "bottom": 0, 
+                "height": 98, 
+                "isScaleImage": false, 
+                "left": 0, 
+                "link": "commonItemUI#headBg.png", 
+                "opacity": 255, 
+                "property": "", 
+                "right": 0, 
+                "top": 0, 
+                "width": 94, 
+                "x": 0, 
+                "y": 0
+            }
+        }
+    ], 
+    "classname": "GROUP", 
+    "name": "commonItemUI_headItem", 
+    "options": {
+        "height": 98, 
+        "opacity": 255, 
+        "property": "", 
+        "width": 94, 
+        "x": 197, 
+        "y": 69
+    }
+}

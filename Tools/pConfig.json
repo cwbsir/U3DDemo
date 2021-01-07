@@ -1,0 +1,49 @@
+{
+	"headList" : [
+		
+		"utils/Clone.lua",
+		"utils/Class.lua",
+		"utils/functions.lua",
+		"utils/EventDispatcher.lua",
+
+		"utils/QuoteData.lua",
+
+		"datas/template/TemplateParser.lua",
+
+		"ui/KCreator.lua",
+		"ui/Node.lua",
+		"ui/Label.lua",
+		"ui/Image.lua",
+		"ui/Button.lua",
+		"ui/InputLabel.lua",
+		"ui/ListView.lua",
+		"ui/ScrollView.lua",
+		"ui/HotAreaNode.lua",
+		
+
+		
+
+		"datas/GlobalData.lua",
+		"datas/GlobalConst.lua"
+		"datas/ColorConst.lua",
+		"managers/UIManager.lua",
+		"managers/TickManager.lua",
+		"managers/GlobalManager.lua",
+		"managers/CameraManager.lua",
+
+	
+	],
+	"exceptList" : [
+		"ImportClient.lua",
+		"Main.lua",
+	],
+	"packHead" : [
+	],
+	"packEnd" : [
+	],
+	"packList" : [
+	],
+	"packlua" : [
+		"ImportClient.lua"
+	]
+}

@@ -1,0 +1,13 @@
+{
+    "children": [], 
+    "classname": "GROUP", 
+    "name": "commonItemUI", 
+    "options": {
+        "height": 1280, 
+        "opacity": 255, 
+        "property": "", 
+        "width": 1280, 
+        "x": 0, 
+        "y": 0
+    }
+}

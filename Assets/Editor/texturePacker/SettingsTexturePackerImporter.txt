@@ -1,0 +1,15 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Resources/GUI/commonItemUI/commonItemUI.tpsheet
+- Assets/Resources/GUI/gameMenuView/gameMenuView.tpsheet
+- Assets/Resources/GUI/UICommon/UICommon.tpsheet
+textureFileNames:
+- Assets/Resources/GUI/commonItemUI/commonItemUI.png
+- Assets/Resources/GUI/gameMenuView/gameMenuView.png
+- Assets/Resources/GUI/UICommon/UICommon.png
+normalmapFileNames:
+- 
+- 
+- 
+enableDebugOutput: 0

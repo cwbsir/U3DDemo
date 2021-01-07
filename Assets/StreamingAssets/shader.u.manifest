@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3435213187
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a1c331b58bc339e2fd384b2d01d802fe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d1f8190f465e6d3099ac0770229e4237
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 109
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_SCROLL.shader
+- Assets/Resources/Shader/PSD2UGUI/UiObj_Mask.shader
+- Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_SPLIT_ALPHA.shader
+- Assets/Resources/Shader/PSD2UGUI/FontOutline.shader
+- Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_ICON.shader
+- Assets/Resources/Shader/PSD2UGUI/UiObj.shader
+- Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_OUTPIC_GREY.shader
+- Assets/Resources/Shader/PSD2UGUI/PSD2UGUI.shader
+- Assets/Resources/Shader/PSD2UGUI/FontOutline2.shader
+- Assets/Resources/Shader/PSD2UGUI/Default_Gray.shader
+- Assets/Resources/Shader/KyUnity.cginc
+- Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_SPLIT_ALPHA_GREY.shader
+Dependencies: []

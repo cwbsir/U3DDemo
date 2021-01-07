@@ -1,0 +1,51 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: UICommon.png (512 x 512)
+# $TexturePacker:SmartUpdate:482aa1132fa49252857a05f0634af6b7:540a7de75c247d91eb0aa54ac669cb62:bdba38337834cdfbdd10d95d18d434ff$
+#
+
+bigjoker;106;101;102;135;0.5;0.5
+btn/passBtn;194;272;190;78;0.5;0.5
+btn/scoreone;2;21;190;78;0.5;0.5
+btn/scorepass;194;352;190;78;0.5;0.5
+btn/scorethree;2;352;190;78;0.5;0.5
+btn/scoretwo;194;432;190;78;0.5;0.5
+btn/tipBtn;2;432;190;78;0.5;0.5
+cardBg;2;101;102;135;0.5;0.5
+cardcolor1;2;238;25;32;0.5;0.5
+cardcolor2;29;242;28;28;0.5;0.5
+cardcolor3;88;244;28;26;0.5;0.5
+cardcolor4;59;243;27;27;0.5;0.5
+cardnum1;311;29;32;34;0.5;0.5
+cardnum10;2;315;41;35;0.5;0.5
+cardnum10h;118;315;41;35;0.5;0.5
+cardnum11;45;315;28;35;0.5;0.5
+cardnum11h;161;315;28;35;0.5;0.5
+cardnum12;39;276;35;37;0.5;0.5
+cardnum12h;2;275;35;38;0.5;0.5
+cardnum13;272;29;37;34;0.5;0.5
+cardnum13h;247;65;37;34;0.5;0.5
+cardnum1h;286;65;32;34;0.5;0.5
+cardnum2;313;164;24;34;0.5;0.5
+cardnum2h;313;200;24;34;0.5;0.5
+cardnum3;194;64;25;35;0.5;0.5
+cardnum3h;157;278;25;35;0.5;0.5
+cardnum4;313;236;26;34;0.5;0.5
+cardnum4h;345;236;26;34;0.5;0.5
+cardnum5;246;27;24;35;0.5;0.5
+cardnum5h;221;64;24;35;0.5;0.5
+cardnum6;145;241;25;35;0.5;0.5
+cardnum6h;130;278;25;35;0.5;0.5
+cardnum7;220;27;24;35;0.5;0.5
+cardnum7h;194;27;24;35;0.5;0.5
+cardnum8;118;241;25;35;0.5;0.5
+cardnum8h;103;278;25;35;0.5;0.5
+cardnum9;76;278;25;35;0.5;0.5
+cardnum9h;75;315;25;35;0.5;0.5
+farmerback;386;238;102;135;0.5;0.5
+landback;210;101;101;135;0.5;0.5
+litterjoker;386;375;102;135;0.5;0.5

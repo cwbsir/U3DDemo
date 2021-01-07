@@ -1,0 +1,73 @@
+ManifestFileVersion: 0
+CRC: 1167378350
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 157c211e2b3f4e4e6565e354c3ab49fb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b7d8ee2d2dee8f373392a6dceeb147c5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 575553740, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1367256648, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1077351063, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 318eae5adaa9baf40a04046f76dd825a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ec4b36e68a462747ba0a2ea100f401d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/GUI/UICommon/UICommon.png
+- Assets/Resources/GUI/UICommon/GameObject.prefab
+- Assets/Resources/GUI/UICommon/Image.prefab
+- Assets/Resources/GUI/UICommon/ScrollView.prefab
+- Assets/Resources/GUI/UICommon/UICommon_etc.mat
+- Assets/Resources/GUI/UICommon/RichLabel.prefab
+- Assets/Resources/GUI/UICommon/Text.prefab
+- Assets/Resources/GUI/UICommon/UICommon_alpha.png
+- Assets/Resources/GUI/UICommon/commonItemUI_clockItemPrefab.prefab
+- Assets/Resources/GUI/UICommon/InputField.prefab
+- Assets/Resources/GUI/UICommon/commonItemUI_clockItemPrefab 1.prefab
+- Assets/Resources/GUI/UICommon/Canvas.prefab
+- Assets/Resources/GUI/UICommon/EventSystem.prefab
+Dependencies:
+- D:/Desktop/myproject/unity_project/MyLand_s/Assets/StreamingAssets/shader.u
+- D:/Desktop/myproject/unity_project/MyLand_s/Assets/StreamingAssets/font.u
+- D:/Desktop/myproject/unity_project/MyLand_s/Assets/StreamingAssets/commonitemui.u

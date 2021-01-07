@@ -1,0 +1,38 @@
+{
+    "common": [
+        "PSDTmp\\公共预设元素_common.psd", 
+        "c7156040450cfbbc57a166e61a5a0399", 
+        [
+            "common_horseHeadView", 
+            "common_getWayItem", 
+            "common_petLingpoOperatorView", 
+            "common_moneyView", 
+            "common_friendItem2", 
+            "common_friendItem", 
+            "common_jiFenShopBtnItem", 
+            "common_shopItemView", 
+            "common_numberAddContainer", 
+            "common_infoItem", 
+            "common_petNeidanItem", 
+            "common_secBtnItem", 
+            "common_propertyItemView"
+        ]
+    ], 
+    "horseUpPanel": [
+        "PSDTmp\\2.升级_horseUpPanel.psd", 
+        "97f45f8a2bedd7300f21805950183006", 
+        [
+            "horseUpPanel_horsePropertyItem"
+        ]
+    ], 
+    "petXisuiOptionPanel": [
+        "PSDTmp\\1.宠物洗髓_petXisuiOptionPanel.psd", 
+        "556b1fe46667cb12601651bb4fa1bc3b", 
+        []
+    ], 
+    "xianLingUI": [
+        "PSDTmp\\修仙仙灵_xianLingUI.psd", 
+        "37b4750f67536dfff142297c0d3d6c1c", 
+        []
+    ]
+}

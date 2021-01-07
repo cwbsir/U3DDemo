@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 1894582317
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: shader.u
+      Dependencies: {}
+    Info_1:
+      Name: font.u
+      Dependencies: {}
+    Info_2:
+      Name: game_desk.png.u
+      Dependencies: {}
+    Info_3:
+      Name: bg_kuang.png.u
+      Dependencies: {}
+    Info_4:
+      Name: uicommon.u
+      Dependencies:
+        Dependency_0: shader.u
+        Dependency_1: font.u
+        Dependency_2: commonitemui.u
+    Info_5:
+      Name: background.png.u
+      Dependencies: {}
+    Info_6:
+      Name: commonitemui.u
+      Dependencies:
+        Dependency_0: shader.u
+        Dependency_1: font.u
+        Dependency_2: uicommon.u
+    Info_7:
+      Name: gamemenuview.u
+      Dependencies:
+        Dependency_0: shader.u
+        Dependency_1: font.u
+        Dependency_2: uicommon.u

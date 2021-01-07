@@ -1,0 +1,71 @@
+{
+    "children": [
+        {
+            "children": [], 
+            "classname": "IMAGE", 
+            "name": "cardNum", 
+            "options": {
+                "bottom": 0, 
+                "height": 34, 
+                "isScaleImage": false, 
+                "left": 0, 
+                "link": "commonItemUI#cardnum1h.png", 
+                "opacity": 255, 
+                "property": "", 
+                "right": 0, 
+                "top": 0, 
+                "width": 32, 
+                "x": 6, 
+                "y": 6
+            }
+        }, 
+        {
+            "children": [], 
+            "classname": "IMAGE", 
+            "name": "colorImg", 
+            "options": {
+                "bottom": 0, 
+                "height": 32, 
+                "isScaleImage": false, 
+                "left": 0, 
+                "link": "commonItemUI#cardcolor1.png", 
+                "opacity": 255, 
+                "property": "", 
+                "right": 0, 
+                "top": 0, 
+                "width": 25, 
+                "x": 12, 
+                "y": 52
+            }
+        }, 
+        {
+            "children": [], 
+            "classname": "IMAGE", 
+            "name": "cardBg", 
+            "options": {
+                "bottom": 0, 
+                "height": 135, 
+                "isScaleImage": false, 
+                "left": 0, 
+                "link": "commonItemUI#cardBg11.png", 
+                "opacity": 255, 
+                "property": "", 
+                "right": 0, 
+                "top": 0, 
+                "width": 102, 
+                "x": 0, 
+                "y": 0
+            }
+        }
+    ], 
+    "classname": "GROUP", 
+    "name": "commonItemUI_cardItem", 
+    "options": {
+        "height": 135, 
+        "opacity": 255, 
+        "property": "", 
+        "width": 102, 
+        "x": 0, 
+        "y": 0
+    }
+}

@@ -1,0 +1,38 @@
+{
+	dbUrl : "jdbc:mysql://localhost:3306/land_s?useUnicode=true&characterEncoding=GBK",
+	dbUser : "root",
+	dbPassword : "123456",
+	fileName : "ky203.txt",
+	version : 476,
+	tables : [
+		{
+			desc : "模板表 landTemplateList",
+			id : 1,
+			sql : "select * from t_template_land",
+			cols : [
+					["id", "8"],
+					["type", "8"],
+					["data_length","16"],
+					["color", "8"],
+					["size", "8"],
+			]
+		},
+		{
+			desc : "模板表 pokerHandsTemplateList",
+			id : 2,
+			sql : "select * from t_template_poker_hands",
+			cols : [
+					["type", "16"],
+					["limit_count", "8"],
+					["data_length","16"],
+					["poker_hands", "string"],
+					["handle_type", "string"],
+					["press_type", "string"],
+					["other_poker", "string"],
+					["other_count", "16"],
+					["except_poker", "string"],
+					["descript", "string"],
+			]
+		},
+	]
+}
