@@ -1,0 +1,513 @@
+fileFormatVersion: 2
+guid: 42dae28cfa4d2f0429394f86ac697fe0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box002
+    100002: Box003
+    100004: Box004
+    100006: Box005
+    100008: Box007
+    100010: Box008
+    100012: Box009
+    100014: Box010
+    100016: Box011
+    100018: Box012
+    100020: Box013
+    100022: Box014
+    100024: Box015
+    100026: Box016
+    100028: Box017
+    100030: Box018
+    100032: Box019
+    100034: Box020
+    100036: Box021
+    100038: Box022
+    100040: Box023
+    100042: Box024
+    100044: Box025
+    100046: Box026
+    100048: Box027
+    100050: Box028
+    100052: Box029
+    100054: Box030
+    100056: Box031
+    100058: Box032
+    100060: Box033
+    100062: Box034
+    100064: Box035
+    100066: Box036
+    100068: Box037
+    100070: Box038
+    100072: Box039
+    100074: Box040
+    100076: Box041
+    100078: Box042
+    100080: Box043
+    100082: Box044
+    100084: Box045
+    100086: Box046
+    100088: Box047
+    100090: Box048
+    100092: Box049
+    100094: Box050
+    100096: Box051
+    100098: Cylinder001
+    100100: Cylinder002
+    100102: Donut001
+    100104: Map_08_water
+    100106: Map_20026_water
+    100108: //RootNode
+    100110: Particle View 01
+    100112: Particle View 01 1
+    100114: Particle View 01 10
+    100116: Particle View 01 11
+    100118: Particle View 01 12
+    100120: Particle View 01 13
+    100122: Particle View 01 14
+    100124: Particle View 01 15
+    100126: Particle View 01 16
+    100128: Particle View 01 17
+    100130: Particle View 01 18
+    100132: Particle View 01 19
+    100134: Particle View 01 2
+    100136: Particle View 01 20
+    100138: Particle View 01 21
+    100140: Particle View 01 22
+    100142: Particle View 01 23
+    100144: Particle View 01 24
+    100146: Particle View 01 25
+    100148: Particle View 01 26
+    100150: Particle View 01 27
+    100152: Particle View 01 28
+    100154: Particle View 01 29
+    100156: Particle View 01 3
+    100158: Particle View 01 30
+    100160: Particle View 01 31
+    100162: Particle View 01 32
+    100164: Particle View 01 33
+    100166: Particle View 01 34
+    100168: Particle View 01 35
+    100170: Particle View 01 36
+    100172: Particle View 01 37
+    100174: Particle View 01 38
+    100176: Particle View 01 4
+    100178: Particle View 01 5
+    100180: Particle View 01 6
+    100182: Particle View 01 7
+    100184: Particle View 01 8
+    100186: Particle View 01 9
+    100188: Plane001
+    100190: Plane002
+    100192: sldd_static07
+    100194: Tube001
+    100196: Tube002
+    100198: Tube003
+    100200: Tube004
+    100202: Tube005
+    400000: Box002
+    400002: Box003
+    400004: Box004
+    400006: Box005
+    400008: Box007
+    400010: Box008
+    400012: Box009
+    400014: Box010
+    400016: Box011
+    400018: Box012
+    400020: Box013
+    400022: Box014
+    400024: Box015
+    400026: Box016
+    400028: Box017
+    400030: Box018
+    400032: Box019
+    400034: Box020
+    400036: Box021
+    400038: Box022
+    400040: Box023
+    400042: Box024
+    400044: Box025
+    400046: Box026
+    400048: Box027
+    400050: Box028
+    400052: Box029
+    400054: Box030
+    400056: Box031
+    400058: Box032
+    400060: Box033
+    400062: Box034
+    400064: Box035
+    400066: Box036
+    400068: Box037
+    400070: Box038
+    400072: Box039
+    400074: Box040
+    400076: Box041
+    400078: Box042
+    400080: Box043
+    400082: Box044
+    400084: Box045
+    400086: Box046
+    400088: Box047
+    400090: Box048
+    400092: Box049
+    400094: Box050
+    400096: Box051
+    400098: Cylinder001
+    400100: Cylinder002
+    400102: Donut001
+    400104: Map_08_water
+    400106: Map_20026_water
+    400108: //RootNode
+    400110: Particle View 01
+    400112: Particle View 01 1
+    400114: Particle View 01 10
+    400116: Particle View 01 11
+    400118: Particle View 01 12
+    400120: Particle View 01 13
+    400122: Particle View 01 14
+    400124: Particle View 01 15
+    400126: Particle View 01 16
+    400128: Particle View 01 17
+    400130: Particle View 01 18
+    400132: Particle View 01 19
+    400134: Particle View 01 2
+    400136: Particle View 01 20
+    400138: Particle View 01 21
+    400140: Particle View 01 22
+    400142: Particle View 01 23
+    400144: Particle View 01 24
+    400146: Particle View 01 25
+    400148: Particle View 01 26
+    400150: Particle View 01 27
+    400152: Particle View 01 28
+    400154: Particle View 01 29
+    400156: Particle View 01 3
+    400158: Particle View 01 30
+    400160: Particle View 01 31
+    400162: Particle View 01 32
+    400164: Particle View 01 33
+    400166: Particle View 01 34
+    400168: Particle View 01 35
+    400170: Particle View 01 36
+    400172: Particle View 01 37
+    400174: Particle View 01 38
+    400176: Particle View 01 4
+    400178: Particle View 01 5
+    400180: Particle View 01 6
+    400182: Particle View 01 7
+    400184: Particle View 01 8
+    400186: Particle View 01 9
+    400188: Plane001
+    400190: Plane002
+    400192: sldd_static07
+    400194: Tube001
+    400196: Tube002
+    400198: Tube003
+    400200: Tube004
+    400202: Tube005
+    2300000: Box002
+    2300002: Box003
+    2300004: Box004
+    2300006: Box005
+    2300008: Box007
+    2300010: Box008
+    2300012: Box009
+    2300014: Box010
+    2300016: Box011
+    2300018: Box012
+    2300020: Box013
+    2300022: Box014
+    2300024: Box015
+    2300026: Box016
+    2300028: Box017
+    2300030: Box018
+    2300032: Box019
+    2300034: Box020
+    2300036: Box021
+    2300038: Box022
+    2300040: Box023
+    2300042: Box024
+    2300044: Box025
+    2300046: Box026
+    2300048: Box027
+    2300050: Box028
+    2300052: Box029
+    2300054: Box030
+    2300056: Box031
+    2300058: Box032
+    2300060: Box033
+    2300062: Box034
+    2300064: Box035
+    2300066: Box036
+    2300068: Box037
+    2300070: Box038
+    2300072: Box039
+    2300074: Box040
+    2300076: Box041
+    2300078: Box042
+    2300080: Box043
+    2300082: Box044
+    2300084: Box045
+    2300086: Box046
+    2300088: Box047
+    2300090: Box048
+    2300092: Box049
+    2300094: Box050
+    2300096: Box051
+    2300098: Cylinder001
+    2300100: Cylinder002
+    2300102: Donut001
+    2300104: Map_08_water
+    2300106: Map_20026_water
+    2300108: Plane001
+    2300110: Plane002
+    2300112: sldd_static07
+    2300114: Tube001
+    2300116: Tube002
+    2300118: Tube003
+    2300120: Tube004
+    2300122: Tube005
+    2300124: //RootNode
+    3300000: Box002
+    3300002: Box003
+    3300004: Box004
+    3300006: Box005
+    3300008: Box007
+    3300010: Box008
+    3300012: Box009
+    3300014: Box010
+    3300016: Box011
+    3300018: Box012
+    3300020: Box013
+    3300022: Box014
+    3300024: Box015
+    3300026: Box016
+    3300028: Box017
+    3300030: Box018
+    3300032: Box019
+    3300034: Box020
+    3300036: Box021
+    3300038: Box022
+    3300040: Box023
+    3300042: Box024
+    3300044: Box025
+    3300046: Box026
+    3300048: Box027
+    3300050: Box028
+    3300052: Box029
+    3300054: Box030
+    3300056: Box031
+    3300058: Box032
+    3300060: Box033
+    3300062: Box034
+    3300064: Box035
+    3300066: Box036
+    3300068: Box037
+    3300070: Box038
+    3300072: Box039
+    3300074: Box040
+    3300076: Box041
+    3300078: Box042
+    3300080: Box043
+    3300082: Box044
+    3300084: Box045
+    3300086: Box046
+    3300088: Box047
+    3300090: Box048
+    3300092: Box049
+    3300094: Box050
+    3300096: Box051
+    3300098: Cylinder001
+    3300100: Cylinder002
+    3300102: Donut001
+    3300104: Map_08_water
+    3300106: Map_20026_water
+    3300108: Plane001
+    3300110: Plane002
+    3300112: sldd_static07
+    3300114: Tube001
+    3300116: Tube002
+    3300118: Tube003
+    3300120: Tube004
+    3300122: Tube005
+    3300124: //RootNode
+    4300000: sldd_static07
+    4300002: Box002
+    4300004: Box003
+    4300006: Box004
+    4300008: Box005
+    4300010: Box007
+    4300012: Box008
+    4300014: Box009
+    4300016: Box010
+    4300018: Box011
+    4300020: Box012
+    4300022: Cylinder001
+    4300024: Tube001
+    4300026: Box013
+    4300028: Box014
+    4300030: Tube002
+    4300032: Box015
+    4300034: Box016
+    4300036: Box017
+    4300038: Box018
+    4300040: Box019
+    4300042: Box020
+    4300044: Box021
+    4300046: Box022
+    4300048: Box023
+    4300050: Box024
+    4300052: Box025
+    4300054: Box026
+    4300056: Tube003
+    4300058: Box027
+    4300060: Box028
+    4300062: Box029
+    4300064: Box030
+    4300066: Box031
+    4300068: Box032
+    4300070: Box033
+    4300072: Box034
+    4300074: Box035
+    4300076: Box036
+    4300078: Box037
+    4300080: Box038
+    4300082: Tube004
+    4300084: Box039
+    4300086: Box040
+    4300088: Box041
+    4300090: Box042
+    4300092: Box043
+    4300094: Box044
+    4300096: Box045
+    4300098: Box046
+    4300100: Box047
+    4300102: Box048
+    4300104: Box049
+    4300106: Box050
+    4300108: Tube005
+    4300110: Cylinder002
+    4300112: Donut001
+    4300114: Plane001
+    4300116: Map_08_water
+    4300118: Plane002
+    4300120: Box051
+    4300122: Map_20026_water
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #0'
+    second: {fileID: 2100000, guid: f135ee1cc3919644c955ceb0a76fd12b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1'
+    second: {fileID: 2100000, guid: f135ee1cc3919644c955ceb0a76fd12b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: 8e60ad30bd1f9594b83292a62694be4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 929cbd07d62c496488c3b2e20a2d2d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_9
+    second: {fileID: 2100000, guid: 07ef630d3588c30429a34ab67c6dea27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sldd_build06
+    second: {fileID: 2100000, guid: 66e34a4c47ce14e42b84bfbeadbb1b7d, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: map$compond$map_03.u
+  assetBundleVariant: 

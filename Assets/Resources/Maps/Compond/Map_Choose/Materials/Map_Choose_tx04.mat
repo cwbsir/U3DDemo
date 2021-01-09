@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Map_Choose_tx04
+  m_Shader: {fileID: 4800000, guid: ec4fa14b2ee380142a7f414c9faf225a, type: 3}
+  m_ShaderKeywords: _SPECULARHIGHLIGHTS_OFF
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cloud1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cloud2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9f94c158ef379174ebb3687b1ab9f48b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflect:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Wave:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Amplitude: 0.04
+    - _BumpScale: 1
+    - _ColorVaryB: 0.3
+    - _ColorVaryK: 0.8
+    - _Cutoff: 0.8
+    - _DetailNormalMapScale: 1
+    - _Difference: 1
+    - _DstBlend: 0
+    - _Emission: 1
+    - _EmissiveIntensity: 2
+    - _Flat: 0
+    - _FnlPow: 1.5
+    - _Frequency: 0.8
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Intensity: 2
+    - _LightX: 0.5
+    - _LightY: 1
+    - _LightZ: -1
+    - _LightmapIntensity: 1.35
+    - _LightmapVaryB: 0.1
+    - _LightmapVaryK: 0.5
+    - _LightmapWave: 0.003
+    - _MainIntensity: 0.7
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReflectParallax: 2
+    - _ReflectScale: 1
+    - _ReflectVaryB: 0
+    - _ReflectVaryK: 0.7
+    - _ReflectWave: 0.025
+    - _Scale1: 2
+    - _Scale2: 2
+    - _ScaleX1: 0.13
+    - _ScaleX2: -0.2
+    - _ScaleZ1: -0.13
+    - _ScaleZ2: 0.2
+    - _Shininess: 192
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 0
+    - _SpecularIntensity: 0.75
+    - _SpeedU1: 0
+    - _SpeedU2: 0.25
+    - _SpeedV1: 0.25
+    - _SpeedV2: 0
+    - _SpeedX1: 0.2
+    - _SpeedX2: -0.6
+    - _SpeedZ1: 0.6
+    - _SpeedZ2: -0.2
+    - _SrcBlend: 1
+    - _TransparentDifference: 0.2
+    - _TransparentVaryK: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0.1, g: 0.5, b: 0.3, a: 1}
+    - _Color2: {r: 0.3, g: 0.7, b: 0.6, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
