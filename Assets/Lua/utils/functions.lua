@@ -19,6 +19,10 @@ function parseABContent(abContent)
 	return destList;
 end
 
+--c#判断是否为空地址--
+function isNil(cObj)
+	return cObj == nil or cObj:Equals(nil);
+end
 --字符串分割成int数组,返回一维数组
 function strSplitToInt(str,token)
 	if (str == "" or str == nil) then return {}; end
