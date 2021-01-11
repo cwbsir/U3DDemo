@@ -31,7 +31,7 @@ public class TexturePackerBuild : Editor
     /// TexturePacker的安装目录
     /// </summary>
     //private const string TPInstallDir = "C:\\Program Files (x86)\\CodeAndWeb\\TexturePacker\\bin\\TexturePacker.exe";
-	private const string TPInstallDir = "C:\\Program Files (x86)\\CodeAndWeb\\TexturePacker\\bin\\TexturePacker.exe";
+	private const string TPInstallDir = "D:\\CodeAndWeb\\TexturePacker\\bin\\TexturePacker.exe";
 
 
     private static string commandText = " --sheet {0}.png --data {1}.tpsheet --format unity-texture2d --trim-mode CropKeepPos  --trim-threshold 6 --pack-mode Best  --algorithm MaxRects --max-size 2048 --size-constraints POT  --disable-rotation --scale 1 {2} --force-squared";

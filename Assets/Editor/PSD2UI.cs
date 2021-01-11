@@ -1,10 +1,12 @@
 using System;
 using System.IO;
+using System.Linq;
+using System.Globalization;
+using System.Collections.Generic;
+
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Globalization;
-using System.Collections.Generic;
 
 
 class PSD2UI : MonoBehaviour
@@ -17,7 +19,7 @@ class PSD2UI : MonoBehaviour
 	{
 		//返回选中文件的绝对路径
 		string inputFile = EditorUtility.OpenFilePanel("Choose PSDUI File to Import", Application.dataPath+"/Resources/PSD/PSD/", "psd");
-		Debug.Log("inputFile:"+inputFile);
+		// UnityEngine.Debug.Log("inputFile:"+inputFile);
 		if ((inputFile != null) && (inputFile != ""))
 		{
 			string psdName = inputFile.Split('/')[inputFile.Split('/').Length - 1];
@@ -37,7 +39,7 @@ class PSD2UI : MonoBehaviour
 			Directory.Delete(PSD2UI.texturePackerTempPath,true);
 		}
 
-		Debug.Log("###########执行命令结束###########");
+		// Debug.Log("###########执行命令结束###########");
 	}
 
 	[MenuItem("MyTools/打common图集")]
@@ -64,7 +66,7 @@ class PSD2UI : MonoBehaviour
         BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
 
 		AssetDatabase.Refresh();
-		Debug.Log("###########common图集成功打完###########");
+		UnityEngine.Debug.Log("###########common图集成功打完###########");
 	}
 
 
@@ -75,7 +77,7 @@ class PSD2UI : MonoBehaviour
 		// {
 		// 	return;
 		// }
-		Debug.Log("PSD2Json psdFile："+psdFile+",outPath"+outPath);
+		UnityEngine.Debug.Log("PSD2Json psdFile："+psdFile+",outPath"+outPath);
 		// TODO 执行psd工具的命令.具体的拷贝 `plist.bat` 里面执行的命令
     	string cmd = String.Format("\"{0}\" -o \"{1}\" -s -v", psdFile, outPath);
    		// 执行cmd命令
@@ -123,12 +125,12 @@ class PSD2UI : MonoBehaviour
 
 
 		//打包临时文件的图集
-		Debug.Log("######开始打图集######");
+		UnityEngine.Debug.Log("######开始打图集######");
 		string srcPath = PSD2UI.texturePackerTempPath + dirName;
 		string tarPath = PSDConst.GUI_PATH + dirName + "/" + dirName + ".png";
 		AtlasManager.InitAtlasForTextureP(srcPath,tarPath);
 
-		Debug.Log("######图集打完，开始加载UI######");
+		UnityEngine.Debug.Log("######图集打完，开始加载UI######");
 		string path1 = PSDConst.GetPrefabPathByName("Canvas");
 		Canvas temp1 = AssetDatabase.LoadAssetAtPath(path1, typeof(Canvas)) as Canvas;
 		// 实例化显示prefab（要另外用个对象保存避免被释放）
@@ -162,7 +164,7 @@ class PSD2UI : MonoBehaviour
 	        var b = (gameobj.transform as RectTransform).anchoredPosition.y;
 
 			string prefabPath = PSDConst.GUI_PATH + dirName + "/" + model.name +"Prefab.prefab";
-			Debug.Log("######创建预设:"+prefabPath+"######");
+			UnityEngine.Debug.Log("######创建预设:"+prefabPath+"######");
 			PrefabUtility.CreatePrefab(prefabPath, gameobj, ReplacePrefabOptions.ReplaceNameBased);
 		}
 
@@ -198,8 +200,8 @@ class PSD2UI : MonoBehaviour
 				string singleImg = PSD2UI.curBaseAssetsDir + rootPath + "/" + imgPath;
 				string tarSingleImg = tmpDir + imgPath;
 				string saveTempDir = Directory.GetParent (tarSingleImg).FullName;
-				Debug.Log ("###tarImg:"+tarSingleImg);
-				Debug.Log ("###saveDir:"+saveTempDir);
+				// UnityEngine.Debug.Log ("###tarImg:"+tarSingleImg);
+				// UnityEngine.Debug.Log ("###saveDir:"+saveTempDir);
 				if (!Directory.Exists (saveTempDir)) {
 					Directory.CreateDirectory (saveTempDir);
 				}
@@ -307,20 +309,58 @@ class PSD2UI : MonoBehaviour
         AssetDatabase.Refresh();
 	}
 
-	public static void setSingleAssetBundleName(string path,string fileName)
+	[MenuItem("MyTools/发布选中资源(文件)")]
+	public static void SetSelectResABName()
+	{	
+		Dictionary<string, List<string>> assetDic = new Dictionary<string, List<string>>();
+        var paths = Selection.assetGUIDs.Select(AssetDatabase.GUIDToAssetPath).ToList();
+
+       	var index = Application.dataPath.IndexOf("Assets");
+        string basePath = Application.dataPath.Substring(0,index);
+        for(var i = 0; i < paths.Count; ++i)
+        {
+        	var path = paths[i];
+        	string fullPath = basePath + path;
+        	string fileName =  path.Split('/')[path.Split('/').Length - 1];
+        	string abName = setSingleAssetBundleName(fullPath, fileName);
+            if (abName == "")
+            {
+                continue;
+            }
+            if (!assetDic.ContainsKey(abName))
+            {
+                assetDic[abName] = new List<string>();
+            }
+            assetDic[abName].Add(path);
+        }
+        Debug.Log("assetDic.Count=="+assetDic.Count);
+        int j = 0;
+        AssetBundleBuild[] builds = new AssetBundleBuild[assetDic.Count];
+        foreach (var item in assetDic)
+        {
+            string[] assetNames = item.Value.ToArray();
+            builds[j].assetNames = assetNames;
+            builds[j].assetBundleName = item.Key;
+            j++;
+        }
+        BuildPipeline.BuildAssetBundles(Application.dataPath + "/StreamingAssets", builds, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows);
+
+	}
+
+
+	public static string setSingleAssetBundleName(string path,string fileName)
 	{
-		if (path.EndsWith(".meta")) return;
+		if (path.EndsWith(".meta")) return string.Empty;
+        path = Path.GetFullPath(path);
         int subIndex = path.IndexOf("\\Assets");
         string basePath = path.Substring(subIndex + 1);
         string sub = "\\Resources";
         int nameIndex = basePath.IndexOf(sub);
         AssetImporter importer = AssetImporter.GetAtPath(basePath);
+        if (importer == null) { return string.Empty; }
 
-        if (importer == null) { return; }
-
-        string name = basePath.Substring(nameIndex + sub.Length + 1);
         string abName = string.Empty;
-        string sourceFileName = fileName;
+        string name = basePath.Substring(nameIndex + sub.Length + 1);
         int index = 0;
         fileName = fileName.ToLower();
         if (fileName.EndsWith(".ttf"))
@@ -343,14 +383,26 @@ class PSD2UI : MonoBehaviour
             //Shader，全部文件打成一个包shader.u
             abName = "shader.u";
         }
+        else if (name.StartsWith("Atlas\\"))
+        {
+            if(fileName.EndsWith(".png") || fileName.EndsWith(".mat") || fileName.EndsWith(".prefab"))
+            {
+                //图集，格式 "atlas$文件名.u"
+                string tmpName = fileName.Substring(0, fileName.IndexOf("."));
+                string[] splits = tmpName.Split(new char[]{'_'});
+                tmpName = splits[0];
+                abName = "atlas_" + tmpName + ".u";
+            }
+        }
         else
         {
-        	return;
+        	return string.Empty;
         }
         if (importer.assetBundleName != abName)
         {
            importer.assetBundleName = abName;
         }
+        return abName;
 	}
 
 

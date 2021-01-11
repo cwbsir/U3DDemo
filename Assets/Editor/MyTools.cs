@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MyTools : MonoBehaviour
 {
-    [MenuItem("MyTools/Build AssetBundles")]
+    [MenuItem("MyTools/发布所有资源")]
     public static void BuildAllAssetBundles()
     {
         Debug.Log("BuildAllAssetBundles");
