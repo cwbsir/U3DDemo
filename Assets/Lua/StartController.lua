@@ -1,12 +1,22 @@
 StartController = class("StartController");
 
 function StartController:startLoad()
-	self.mubanTime = 0;
+	self.lastTime = 0;
 	-- print("Application.dataPath",UnityEngine.Application.dataPath);
 	-- print("Application.temporaryCachePath",UnityEngine.Application.temporaryCachePath);
 	-- print("Application.streamingAssetsPath",UnityEngine.Application.streamingAssetsPath);
 	print("Application.persistentDataPath",UnityEngine.Application.persistentDataPath);
 
+	--0:assetbundle,1:text,2:bytes,3:texture
+	self.loadResList = {};
+	self.loadResList[1] = {0,"shader.u"};
+	self.loadResList[2] = {0,"font.u","yhFont.ttf"};
+	self.loadResList[3] = {0,"StreamingAssets","AssetBundleManifest"};
+	self.loadResList[4] = {0,globalManager.pathManager:getCommonUIPath()};
+	self.loadResList[5] = {0,globalManager.pathManager:getCommonItemPrefabPath()};
+	self.resCompleteCount = 0;
+
+	 --先加载模板表，再加载资源
 	self:loadTemplate();
 end
 
@@ -27,40 +37,40 @@ function StartController:templateParseComplete()
 	print("template parse complete");
 	print("ooooooooooooooooooooo解析模板表耗时：",os.clock() - self.mubanTime);
 	self._templateComplete = true;
-	self:loadShaders();
+	self:loadRes();
 end
 
-function StartController:loadShaders()
-	globalManager.loaderManager:loadAsset("shader.u",nil,self.loadShadersComplete,self);
+function StartController:loadRes()
+	for i=1,#self.loadResList do
+		local data = self.loadResList[i];
+		--加载ab包
+		if data[1] == 0 then
+			globalManager.loaderManager:loadAsset(data[2],data[3],self.loadResComplete,self);
+		end
+	end
 end
 
-function StartController:loadShadersComplete(abName,assetName,abContent)
-	globalConst.shaderType:init(abContent);
+function StartController:loadResComplete(abName,assetName,abContent,asset)
+	if abName == "shader.u" then
+		globalConst.shaderType:init(abContent);
+	elseif abName == "font.u" then
+		globalData.defaultFont = abContent:LoadAsset(assetName);
+	elseif abName == "StreamingAssets" then
+		globalManager.loaderManager:setABManifest(asset);
+	elseif abName == globalManager.pathManager:getCommonUIPath() then
+		globalData.uiPrefabs = parseABContent(abContent);
+	elseif abName == globalManager.pathManager:getCommonItemPrefabPath() then
+		globalData.commonItemPrefabs = parseABContent(abContent);
+	end
 
-	globalManager.loaderManager:loadAsset("font.u","yhFont.ttf",self.loadFontComplete,self);
-end
-
-function StartController:loadFontComplete(abName,assetName,abContent)
-	globalData.defaultFont = abContent:LoadAsset(assetName);
-	
-	globalManager.loaderManager:loadAsset(globalManager.pathManager:getCommonUIPath(),nil,self.loadUICommonComplete,self);
-end
-
-function StartController:loadUICommonComplete(abName,assetName,abContent)
-	globalData.uiPrefabs = parseABContent(abContent);
-
-	globalManager.loaderManager:loadAsset(globalManager.pathManager:getCommonItemPrefabPath(),nil,self.loadCommonItemUIComplete,self);
-end
-
-function StartController:loadCommonItemUIComplete(abName,assetName,abContent)
-	globalData.commonItemPrefabs = parseABContent(abContent);
-
-	self:startGame();
+	self.resCompleteCount = self.resCompleteCount + 1;
+	if self.resCompleteCount >= #self.loadResList then
+		self:startGame();
+	end
 end
 
 function StartController:startGame()
 	print("startGame");
-
 	if self._gameScene == nil then
 		self._gameScene = GameScene:new();
 	end
