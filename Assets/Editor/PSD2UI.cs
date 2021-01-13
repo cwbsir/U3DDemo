@@ -170,7 +170,7 @@ class PSD2UI : MonoBehaviour
 
 
 		SetAssetBundleName();
-		MyTools.BuildAllAssetBundles();
+		BuildAllAssetBundles();
 
 		AssetDatabase.Refresh();
 	}
@@ -290,27 +290,9 @@ class PSD2UI : MonoBehaviour
 		}
 	}
 
-	[MenuItem("MyTools/设置所有资源的AB名")]
-	public static void SetAssetBundleName()
-	{
-		string path = Application.dataPath + "/Resources";
-        if (Directory.Exists(path))
-        {
-            var dir = new DirectoryInfo(path);
-            var files = dir.GetFiles("*", SearchOption.AllDirectories);
-            for (var i = 0; i < files.Length; ++i)
-            {
-                FileInfo info = files[i];
-                setSingleAssetBundleName(info.FullName, info.Name);
-            }
-        }
-        AssetDatabase.RemoveUnusedAssetBundleNames();
-        AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
-	}
 
-	[MenuItem("MyTools/发布选中资源(文件)")]
-	public static void SetSelectResABName()
+	[MenuItem("MyTools/AssetBundle/发布选中资源(文件)")]
+	public static void BuildSelectResABNameAndPublish()
 	{	
 		Dictionary<string, List<string>> assetDic = new Dictionary<string, List<string>>();
         var paths = Selection.assetGUIDs.Select(AssetDatabase.GUIDToAssetPath).ToList();
@@ -331,9 +313,10 @@ class PSD2UI : MonoBehaviour
             {
                 assetDic[abName] = new List<string>();
             }
+
             assetDic[abName].Add(path);
         }
-        Debug.Log("assetDic.Count=="+assetDic.Count);
+
         int j = 0;
         AssetBundleBuild[] builds = new AssetBundleBuild[assetDic.Count];
         foreach (var item in assetDic)
@@ -344,9 +327,83 @@ class PSD2UI : MonoBehaviour
             j++;
         }
         BuildPipeline.BuildAssetBundles(Application.dataPath + "/StreamingAssets", builds, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows);
-
+        EditorUtility.DisplayDialog("完成", "发布选中文件名成功！", "确定");
 	}
 
+
+    [MenuItem("MyTools/AssetBundle/发布文件夹资源")]
+    public static void BuildSelectFoldABNameAndPubliush()
+    {	
+    	Dictionary<string, List<string>> assetDic = new Dictionary<string, List<string>>();
+        var paths = Selection.assetGUIDs.Select(AssetDatabase.GUIDToAssetPath).Where(AssetDatabase.IsValidFolder).ToList();
+        for (int i = 0; i < paths.Count; i++)
+        {
+            var dir = new DirectoryInfo(paths[i]);
+            var files = dir.GetFiles("*", SearchOption.AllDirectories);
+            for (var j = 0; j < files.Length; ++j)
+            {
+                FileInfo info = files[j];
+                string abName = setSingleAssetBundleName(info.FullName, info.Name);
+
+                if(abName == "")
+                {
+                	continue;
+                } 
+	           if (!assetDic.ContainsKey(abName))
+	            {
+	                assetDic[abName] = new List<string>();
+	            }
+	            int subIdx = info.FullName.IndexOf("Assets");
+	            string assetPath = info.FullName.Substring(subIdx);
+	            assetDic[abName].Add(assetPath);
+            }
+        }
+        int index = 0;
+        AssetBundleBuild[] builds = new AssetBundleBuild[assetDic.Count];
+        foreach (var item in assetDic)
+        {
+            string[] assetNames = item.Value.ToArray();
+            builds[index].assetNames = assetNames;
+            builds[index].assetBundleName = item.Key;
+            index++;
+        }
+        BuildPipeline.BuildAssetBundles(Application.dataPath + "/StreamingAssets", builds, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows);
+        EditorUtility.DisplayDialog("完成", "发布选中文件夹AB名成功！", "确定");
+    }
+
+    [MenuItem("MyTools/AssetBundle/发布所有资源")]
+    public static void BuildAllAssetBundles()
+    {
+        Debug.Log("BuildAllAssetBundles");
+        string assetBundleDirectory = "Assets/StreamingAssets";
+        if (!Directory.Exists(assetBundleDirectory))
+        {
+            Directory.CreateDirectory(assetBundleDirectory);
+        }
+
+        // BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, BuildTarget.Android);
+        BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
+    }
+	
+
+	[MenuItem("MyTools/AssetBundle/设置所有资源的AB名")]
+	public static void SetAssetBundleName()
+	{
+		string path = Application.dataPath + "/Resources";
+        if (Directory.Exists(path))
+        {
+            var dir = new DirectoryInfo(path);
+            var files = dir.GetFiles("*", SearchOption.AllDirectories);
+            for (var i = 0; i < files.Length; ++i)
+            {
+                FileInfo info = files[i];
+                setSingleAssetBundleName(info.FullName, info.Name);
+            }
+        }
+        AssetDatabase.RemoveUnusedAssetBundleNames();
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+	}
 
 	public static string setSingleAssetBundleName(string path,string fileName)
 	{

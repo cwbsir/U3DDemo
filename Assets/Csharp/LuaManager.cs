@@ -206,22 +206,7 @@ public class LuaManager:MonoBehaviour
             }
         }
 
-
-        Debug.Log("Application.persistentDataPath:"+Application.persistentDataPath);
-
-        string tagLuaPath = Application.persistentDataPath+"/gamelua/Main.lua";
-       if(System.IO.File.Exists(tagLuaPath))
-        {
-           Debug.Log("文件"+tagLuaPath+"存在");
-        }
-        else
-        {
-            Debug.Log("文件"+tagLuaPath+"不存在");
-        }
-
         lua.Start();
-        lua.DoString("print('hello world')");
-
         try
         {
             Debug.Log("#############Enter#####Game.lua##########");
@@ -234,7 +219,7 @@ public class LuaManager:MonoBehaviour
         catch (LuaException e)
         {
             // Game.lua报错，删除可写目录下文件，重启，重新包里解压出来
-            Debug.Log("######Game.lua####ERROR###lua文件出错,删除解压重启#####"+e);
+            Debug.LogError(e);
             // deletFiles();
             // 重启程序
             // UnityEngine.SceneManagement.SceneManager.LoadScene("RestartScene");

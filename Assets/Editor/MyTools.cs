@@ -4,20 +4,6 @@ using UnityEngine;
 
 public class MyTools : MonoBehaviour
 {
-    [MenuItem("MyTools/发布所有资源")]
-    public static void BuildAllAssetBundles()
-    {
-        Debug.Log("BuildAllAssetBundles");
-        string assetBundleDirectory = "Assets/StreamingAssets";
-        if (!Directory.Exists(assetBundleDirectory))
-        {
-            Directory.CreateDirectory(assetBundleDirectory);
-        }
-
-        // BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, BuildTarget.Android);
-        BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
-    }
-
     [MenuItem("MyTools/生成ImportClient.lua")]
     public static void BuildImportClient()
     {
