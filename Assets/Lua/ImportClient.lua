@@ -21,6 +21,7 @@ require "utils/Clone"
 require "GameConfig"
 require "StartController"
 
+require "common/ABLoader"
 require "common/AssetLoader"
 
 require "datas/ColorConst"
@@ -39,12 +40,19 @@ require "utils/Clone"
 require "datas/template/LandTemplateList"
 require "datas/template/PokerHandTempalteList"
 
+require "managers/EffectManager"
 require "managers/LoaderManager"
 require "managers/PathManager"
 require "managers/PoolManager"
 require "managers/TriggerManager"
 
 require "modules/GameScene"
+
+require "modules/scene/SceneObj"
+require "modules/scene/SceneRole"
+
+require "resobjs/BaseResObj"
+require "resobjs/ResObjActionController"
 
 require "ui/RichLabel"
 
