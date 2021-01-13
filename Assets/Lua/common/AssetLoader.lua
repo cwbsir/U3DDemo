@@ -1,10 +1,11 @@
+--加载类（单个ab包，text,bytes,texture)
 AssetLoader = class("AssetLoader");
 
 function AssetLoader:ctor(abName)
 	self.text = nil;
 	self.bytes = nil;
 	self.texture = nil;
-
+	--引用计数
 	self.count = 0;
 	--ab里面的内容
 	self.abContent = nil;
@@ -22,13 +23,15 @@ function AssetLoader:doLoad()
 	if(self.loadState == 0)then
 		self.loadState = 1;
 		StartCoroutine(function() self:__load(); end);
+	elseif(self.loadState == 2)then
+		self:loadComplete();
 	end
 end
 
 function AssetLoader:__load()
 	local download = nil;
 	local resPath = gameConfig:getResFoldPath().."/"..self.abName;
-	print("resPath=",resPath);
+	-- print("resPath=",resPath);
 	if self.loadType == 0 then
 		download = UnityEngine.AssetBundle.LoadFromFileAsync(resPath);
 	else
@@ -61,18 +64,17 @@ function AssetLoader:setLoadType(loadType)
 end
 
 
-function AssetLoader:addCB(callback,target,assetName)
+function AssetLoader:addCB(callback,target)
 	local index = self:hasCB(callback,target);
 	if(index == -1)then
 		local qd = globalManager.poolManager:createQuoteData();
 		qd:init(callback,target);
-		qd.params = assetName;
 		table.insert(self._cbs,qd);
 		if(self.loadState == 2)then
 			self:doCallBack(qd);
 		end
 	else
-		print("重复添加加载回调");
+		print("AssetLoader重复添加加载回调");
 	end
 end
 
@@ -99,22 +101,15 @@ end
 function AssetLoader:loadComplete()
 	self.loadState = 2;
 	local len = #self._cbs;
-	for i = 1,len,1 do
-		local qd = self._cbs[i];
+	for i = len,1,-1 do
+		local qd = table.remove(self._cbs,i);
 		self:doCallBack(qd);
 	end
 end
 
 function AssetLoader:doCallBack(qd)
 	if self.loadType == 0 then
-		local assetName = qd.params;
-		print("assetName",assetName);
-		if assetName ~= nil then
-			local asset =  self.abContent:LoadAsset(assetName);
-			qd.callback(qd.target,self.abName,qd.params,self.abContent,asset);
-		else
-			qd.callback(qd.target,self.abName,qd.params,self.abContent);
-		end
+		qd.callback(qd.target,self.abName);
 	elseif self.loadType == 1 then
 		qd.callback(qd.target,self.abName,qd.params,self.text);
 	elseif self.loadType == 2 then
@@ -122,14 +117,26 @@ function AssetLoader:doCallBack(qd)
 	elseif self.loadType == 3 then
 		qd.callback(qd.target,self.abName,qd.params,self.texture);
 	end
-	
+end
+
+function AssetLoader:addCount()
+	self.count = self.count + 1;
+end
+
+function AssetLoader:reduceCount()
+	self.count = self.count - 1;
 end
 
 function AssetLoader:isCanRemove()
-	return #self._cbs <= 0;
+	return self.count <= 0;
 end
 
 function AssetLoader:dispose()
+	if self._cbs ~= nil then
+		for i=1,#self._cbs do
+			self._cbs[i]:dispose();
+		end
+	end
 	self._cbs = nil;
 	self.text = nil;
 	self.bytes = nil;

@@ -42,7 +42,7 @@ function SpriteSheetList:loadSprite(abName,spriteName,cb,cbTarget)
 		table.insert(waitingSpriteList,{cb=cb,cbTarget=cbTarget})
 
 		if isNeedLoad then
-			globalManager.loaderManager:loadAsset(abName,nil,self.spriteSheetLoadComplete,self);
+			globalManager.loaderManager:loadAB(abName,nil,self.spriteSheetLoadComplete,self);
 		end
 	end
 end

@@ -5,15 +5,15 @@ function StartController:startLoad()
 	-- print("Application.dataPath",UnityEngine.Application.dataPath);
 	-- print("Application.temporaryCachePath",UnityEngine.Application.temporaryCachePath);
 	-- print("Application.streamingAssetsPath",UnityEngine.Application.streamingAssetsPath);
-	print("Application.persistentDataPath",UnityEngine.Application.persistentDataPath);
+	-- print("Application.persistentDataPath",UnityEngine.Application.persistentDataPath);
 
 	--0:assetbundle,1:text,2:bytes,3:texture
 	self.loadResList = {};
-	self.loadResList[1] = {0,"shader.u"};
-	self.loadResList[2] = {0,"font.u","yhFont.ttf"};
-	self.loadResList[3] = {0,"StreamingAssets","AssetBundleManifest"};
-	self.loadResList[4] = {0,globalManager.pathManager:getCommonUIPath()};
-	self.loadResList[5] = {0,globalManager.pathManager:getCommonItemPrefabPath()};
+	table.insert(self.loadResList,{0,"shader.u"})
+	table.insert(self.loadResList,{0,"font.u","yhFont.ttf"})
+	table.insert(self.loadResList,{0,"StreamingAssets","AssetBundleManifest"})
+	table.insert(self.loadResList,{0,globalManager.pathManager:getCommonUIPath()})
+	table.insert(self.loadResList,{0,globalManager.pathManager:getCommonItemPrefabPath()})
 	self.resCompleteCount = 0;
 
 	 --先加载模板表，再加载资源
@@ -45,7 +45,7 @@ function StartController:loadRes()
 		local data = self.loadResList[i];
 		--加载ab包
 		if data[1] == 0 then
-			globalManager.loaderManager:loadAsset(data[2],data[3],self.loadResComplete,self);
+			globalManager.loaderManager:loadAB(data[2],data[3],self.loadResComplete,self);
 		end
 	end
 end
@@ -71,6 +71,10 @@ end
 
 function StartController:startGame()
 	print("startGame");
+	globalManager.loaderManager:loadAB("map$20040.unity.u",nil,function()
+		print("回调成功")
+		end,self);
+	
 	if self._gameScene == nil then
 		self._gameScene = GameScene:new();
 	end

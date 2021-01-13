@@ -60,7 +60,7 @@ function Image:loadOutPic(abName,assetName,callback,target)
 	self._outTarget = target;
 	-- 设置成透明，否则会白屏闪烁一下
 	-- self:setColor(nil,0);
-	globalManager.loaderManager:loadAsset(abName,assetName,self.outPicLoadComplete,self);
+	globalManager.loaderManager:loadAB(abName,assetName,self.outPicLoadComplete,self);
 end
 
 function Image:outPicLoadComplete(abName,assetName,abContent,texture)
@@ -125,7 +125,7 @@ function Image:clearOutAB()
 	self._outTarget = nil;
 	self._outCallback = nil;
 	if self._outAbName ~= nil then
-		globalManager.loaderManager:removeAsset(self._outAbName,self._outAssetName,self.outPicLoadComplete,self);
+		globalManager.loaderManager:removeAB(self._outAbName,self._outAssetName,self.outPicLoadComplete,self);
 		self._outAbName = nil;
 		self._outAssetName = nil;
 	end

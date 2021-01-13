@@ -52,7 +52,7 @@ function Node:loadNodeAb(abName,assetName)
 	self._abName = abName;
 	self._assetName = assetName;
 	if self._abName ~= nil then
-		globalManager.loaderManager:loadAsset(self._abName,self._assetName,self.aBComplete,self);
+		globalManager.loaderManager:loadAB(self._abName,self._assetName,self.aBComplete,self);
 	else
 		print("!!ERROR!!!未传入ABName");
 	end
@@ -342,7 +342,7 @@ function Node:doClear()
 	end
 
 	if self._abName ~= nil then
-		globalManager.loaderManager:removeAsset(self._abName,self.aBComplete,self,self._assetName);
+		globalManager.loaderManager:removeAB(self._abName,self.aBComplete,self,self._assetName);
 		self._abName = nil;
 		self._assetName = nil
 		self._assetList = nil;

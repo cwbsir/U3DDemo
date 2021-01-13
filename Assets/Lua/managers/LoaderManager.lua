@@ -2,31 +2,64 @@ LoaderManager = class("LoaderManager");
 
 function LoaderManager:ctor()
 	self._abLoaders = {};
+	self._assetLoaders = {};
+
 
 	self._manifest = nil;
 	self._dependencies = {};
 end
 
-function LoaderManager:loadAsset(abName,assetName,callback,target)
-	print("loadAsset",abName,assetName);
+function LoaderManager:loadAB(abName,assetName,callback,target)
+	-- print("LoaderManager:loadAB",abName,assetName);
 	local abLoader = self._abLoaders[abName];
-	if self._abLoaders[abName] == nil then
-		abLoader = AssetLoader:new(abName);
+	if abLoader == nil then
+		abLoader = ABLoader:new(abName);
 		self._abLoaders[abName] = abLoader;
 	end
+
+	abLoader:addCount();
 	abLoader:addCB(callback,target,assetName);
-	abLoader:doLoad();
+	abLoader:startLoad();
 end
 
-function LoaderManager:removeAsset(abName,assetName,callback,target)
+function LoaderManager:removeAB(abName,assetName,callback,target)
 	local abLoader = self._abLoaders[abName];
 	if abLoader ~= nil then
-		abLoader:removeCB(callback,target);
+		abLoader:reduceCount();
+		abLoader:removeCB(callback,target,assetName);
 		if abLoader:isCanRemove() then
-			self._abLoaders[abName]:dispose();
+			abLoader:dispose();
 			self._abLoaders[abName] = nil;
 		end
 	end
+end
+
+function LoaderManager:loadSingleAB(abName,callback,target)
+	-- print("LoaderManager:loadSingleAB",abName);
+	local assetLoader = self:getAssetLoader(abName);
+	assetLoader:addCount();
+	--单个ab包加载，不传assetName,当有多个ab包回调同一个函数时，只需要调用一次就好
+	assetLoader:addCB(callback,target);
+	assetLoader:doLoad();
+end
+
+function LoaderManager:removeSingleAB(abName,callback,target)
+	local assetLoader = self._assetLoaders[abName];
+	if assetLoader ~= nil then
+		assetLoader:reduceCount();
+		assetLoader:removeCB(callback,target);
+		if assetLoader:isCanRemove() then
+			assetLoader:dispose();
+			self._assetLoaders[abName] = nil;
+		end
+	end
+end
+
+function LoaderManager:getAssetLoader(abName)
+	if self._assetLoaders[abName] == nil then
+		self._assetLoaders[abName] = AssetLoader:new(abName);
+	end
+	return self._assetLoaders[abName];
 end
 
 function LoaderManager:loadText(name,callback,target)
@@ -58,14 +91,13 @@ end
 
 function LoaderManager:getDependList(abName)
 	if self._manifest == nil then
-		return {abName};
+		return {};
 	end
 	local depends = self._dependencies[abName];
 	if depends == nil then
 		local tmp = self._manifest:GetAllDependencies(abName);
 		depends = {};
 		for i=0, tmp.Length-1, 1 do
-			print("getDependList",tmp[i]);
 			table.insert(depends, tmp[i]);
 		end
 		table.insert(depends, abName);
@@ -74,26 +106,9 @@ function LoaderManager:getDependList(abName)
 	return depends;
 end
 
-function LoaderManager:getDependListOfficial(abName)
-	if(self.abManifest == nil)then
-		return nil;
-	end
-	local dep = self._abDependencies[abName];
-	if(dep == nil)then
-		local tmp = self.abManifest:GetAllDependencies(abName);
-		dep = {};
-		local len = tmp.Length;
-		for i = 0,len - 1,1 do
-			table.insert(dep,tmp[i]);
-		end
-		self._abDependencies[abName] = dep;
-	end
-	return dep;
-end
-
 function LoaderManager:clearAll()
-	for k,v in pairs(self._abLoaders) do
+	for k,v in pairs(self._assetLoaders) do
 		v:dispose();
-		self._abLoaders[k] = nil;
+		self._assetLoaders[k] = nil;
 	end
 end
