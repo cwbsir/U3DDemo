@@ -13,6 +13,7 @@ public class Driver:MonoBehaviour
     private LuaFunction onGuiFunc;
     private LuaFunction fixedTickFunc;
 
+
     private float m_LastUpdateShowTime = 0f;    //上一次更新帧率的时间;
 
     public int targetFrameRate = 10;
@@ -28,6 +29,9 @@ public class Driver:MonoBehaviour
         // Screen.autorotateToPortraitUpsideDown = false;
 
         Debug.Log("Drive 屏幕Sceen宽高,"+UnityEngine.Screen.width+","+UnityEngine.Screen.height);
+        
+        var driverGo = GameObject.Find("Driver");
+        UnityEngine.Object.DontDestroyOnLoad(driverGo);
 
         //加载背景图
         // StartCoroutine(loadFirstBg());
