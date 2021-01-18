@@ -403,9 +403,29 @@ class PSD2UI : MonoBehaviour
         AssetDatabase.RemoveUnusedAssetBundleNames();
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
+         EditorUtility.DisplayDialog("完成", "设置所有资源的AB名成功！", "确定");
 	}
 
-	public static string setSingleAssetBundleName(string path,string fileName)
+	[MenuItem("MyTools/AssetBundle/清除所有资源的AB名")]
+	public static void ClearAssetBundleName()
+	{
+		string path = Application.dataPath + "/Resources";
+        if (Directory.Exists(path))
+        {
+            var dir = new DirectoryInfo(path);
+            var files = dir.GetFiles("*", SearchOption.AllDirectories);
+            for (var i = 0; i < files.Length; ++i)
+            {
+                FileInfo info = files[i];
+                setSingleAssetBundleName(info.FullName, info.Name,true);
+            }
+        }
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+        EditorUtility.DisplayDialog("完成", "清除所有资源的AB名成功！", "确定");
+	}
+
+	public static string setSingleAssetBundleName(string path,string fileName,bool clearName = false)
 	{
 		if (path.EndsWith(".meta")) return string.Empty;
         path = Path.GetFullPath(path);
@@ -415,6 +435,12 @@ class PSD2UI : MonoBehaviour
         int nameIndex = basePath.IndexOf(sub);
         AssetImporter importer = AssetImporter.GetAtPath(basePath);
         if (importer == null) { return string.Empty; }
+
+        if(clearName)
+        {
+        	importer.assetBundleName = string.Empty;
+        	return string.Empty;
+        }
 
         string abName = string.Empty;
         string name = basePath.Substring(nameIndex + sub.Length + 1);
@@ -448,8 +474,31 @@ class PSD2UI : MonoBehaviour
                 string tmpName = fileName.Substring(0, fileName.IndexOf("."));
                 string[] splits = tmpName.Split(new char[]{'_'});
                 tmpName = splits[0];
-                abName = "atlas_" + tmpName + ".u";
+                abName = "atlas$" + tmpName + ".u";
             }
+        }
+        else if (name.StartsWith("Maps\\"))
+        {
+            if(fileName.EndsWith(".unity"))
+            {
+       			abName = fileName+".u";
+            }
+	        else if(name.Contains("Compond"))
+	        {
+	        	index = name.IndexOf("Compond");
+	        	string tmpName = name.Substring(index+8);
+	        	index = tmpName.IndexOf("\\");
+	        	tmpName = tmpName.Substring(0,index);
+	        	abName = "Maps$"+tmpName+".u";
+	        }
+        }
+        else if (name.StartsWith("Roles\\"))
+        {
+        	index = name.IndexOf("Role\\");
+        	string tmpName = name.Substring(index+5);
+	        index = tmpName.IndexOf("\\");
+        	tmpName = tmpName.Substring(0,index);
+        	abName = "Role$"+tmpName+".u";
         }
         else
         {
