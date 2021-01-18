@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2672064843
+CRC: 2465398891
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d06a16d94957c98c357d567d4b777528
+    Hash: 262e6f9809ed19cdb0756f4bfff7035d
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -88,4 +88,5 @@ Assets:
 - Assets/Resources/Maps/Compond/Map_02/Models/Map_05_bridge08.FBX
 - Assets/Resources/Maps/Compond/Map_02/Models/Map_05_bridge07.FBX
 - Assets/Resources/Maps/Compond/Map_02/Materials/Map_05_tx02.png
-Dependencies: []
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u

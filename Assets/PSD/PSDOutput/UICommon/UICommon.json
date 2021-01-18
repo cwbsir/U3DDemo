@@ -1,0 +1,52 @@
+{
+    "children": [
+        {
+            "children": [], 
+            "classname": "IMAGE", 
+            "name": "yaoganzhongxin", 
+            "options": {
+                "bottom": 0, 
+                "height": 66, 
+                "isScaleImage": false, 
+                "left": 0, 
+                "link": "UICommon#yaoganzhongxin.png", 
+                "opacity": 255, 
+                "property": "", 
+                "right": 0, 
+                "top": 0, 
+                "width": 65, 
+                "x": 76, 
+                "y": 57
+            }
+        }, 
+        {
+            "children": [], 
+            "classname": "IMAGE", 
+            "name": "yaoganfeianya", 
+            "options": {
+                "bottom": 0, 
+                "height": 185, 
+                "isScaleImage": false, 
+                "left": 0, 
+                "link": "UICommon#yaoganfeianya.png", 
+                "opacity": 255, 
+                "property": "", 
+                "right": 0, 
+                "top": 0, 
+                "width": 185, 
+                "x": 17, 
+                "y": 0
+            }
+        }
+    ], 
+    "classname": "GROUP", 
+    "name": "UICommon", 
+    "options": {
+        "height": 640, 
+        "opacity": 255, 
+        "property": "", 
+        "width": 1136, 
+        "x": 0, 
+        "y": 0
+    }
+}

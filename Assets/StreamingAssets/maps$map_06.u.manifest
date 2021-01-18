@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3364483573
+CRC: 2632274617
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 089f6aa407cd9e0506274e32afc99729
+    Hash: 5d3965bf87ee7d6fc0c57a04a22c7348
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -114,4 +114,5 @@ Assets:
 - Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx05.png
 - Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant11.FBX
 Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
 - D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/maps$common.u

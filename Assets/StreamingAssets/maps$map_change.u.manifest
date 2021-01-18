@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2229775193
+CRC: 3878524284
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 795a4b948c9cfe59163f7c39e26e5493
+    Hash: 7b1062319068bfe5cd0901960f84268a
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -41,4 +41,5 @@ Assets:
 - Assets/Resources/Maps/Compond/Map_Change/Models/temple_platform01.FBX
 - Assets/Resources/Maps/Compond/Map_Change/Materials/temple_tex02.mat
 - Assets/Resources/Maps/Compond/Map_Change/Models/temple_platform02.FBX
-Dependencies: []
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4100514073
+CRC: 3623184777
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 36eaed572369ed354ef586fb0e609d19
+    Hash: 128cba895d0518013e6997d863c6e11e
   TypeTreeHash:
     serializedVersion: 2
     Hash: fa5fb3cc3d465eba2d44a2fa5b998ff9
@@ -68,7 +68,4 @@ Assets:
 - Assets/Resources/GUI/UICommon/UICommonPrefab.prefab
 - Assets/Resources/GUI/UICommon/Canvas.prefab
 - Assets/Resources/GUI/UICommon/EventSystem.prefab
-Dependencies:
-- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/commonitemui.u
-- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
-- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/font.u
+Dependencies: []

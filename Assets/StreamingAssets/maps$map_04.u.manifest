@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1281983704
+CRC: 1250364916
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ac43c44d44243f5edabd94c338201d0f
+    Hash: 1aeb85d8c435ecc8c2ef8ddde7e4382d
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -96,4 +96,5 @@ Assets:
 - Assets/Resources/Maps/Compond/Map_04/Models/Map_07_grass13.FBX
 - Assets/Resources/Maps/Compond/Map_04/Models/Map_07_water01.FBX
 - Assets/Resources/Maps/Compond/Map_04/Models/Map_07_wooden15.FBX
-Dependencies: []
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
