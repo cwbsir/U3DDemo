@@ -115,8 +115,12 @@ class PSD2UI : MonoBehaviour
 		//打包临时文件的图集
 		UnityEngine.Debug.Log("######开始打图集######");
 		string srcPath = PSD2UI.texturePackerTempPath + dirName;
-		string tarPath = PSDConst.GUI_PATH + dirName + "/" + dirName + ".png";
-		AtlasManager.InitAtlasForTextureP(srcPath,tarPath);
+		//没有自己的图集，不需要创建图集
+		if(Directory.Exists(srcPath))
+		{
+			string tarPath = PSDConst.GUI_PATH + dirName + "/" + dirName + ".png";
+			AtlasManager.InitAtlasForTextureP(srcPath,tarPath);
+		}
 
 		UnityEngine.Debug.Log("######图集打完，开始加载UI######");
 		string path1 = PSDConst.GetPrefabPathByName("Canvas");
@@ -151,6 +155,10 @@ class PSD2UI : MonoBehaviour
 	        var a = (gameobj.transform as RectTransform).anchoredPosition.x;
 	        var b = (gameobj.transform as RectTransform).anchoredPosition.y;
 
+	        string prefabFold = PSDConst.GUI_PATH + dirName + "/";
+			if (!Directory.Exists(prefabFold)) {
+				Directory.CreateDirectory (prefabFold);
+			}
 			string prefabPath = PSDConst.GUI_PATH + dirName + "/" + model.name +"Prefab.prefab";
 			UnityEngine.Debug.Log("######创建预设:"+prefabPath+"######");
 			PrefabUtility.CreatePrefab(prefabPath, gameobj, ReplacePrefabOptions.ReplaceNameBased);

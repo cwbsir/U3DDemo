@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 2868379940
+CRC: 4294468389
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: uicommon.u
+      Name: commonitemui.u
       Dependencies: {}
