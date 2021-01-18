@@ -12,8 +12,10 @@ function parseABContent(abContent)
 	local destList = {};
 	if(prefabList == nil)then return destList; end;
 	local len = prefabList.Length - 1;
+	-- print("prefabList.Length",prefabList.Length);
 	for i = 0,len,1 do
 		local prefab = prefabList[i];
+		-- print("prefab.name",prefab.name);
 		destList[prefab.name] = prefab;
 	end
 	return destList;

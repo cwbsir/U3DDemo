@@ -70,7 +70,7 @@ end
 globalData = nil;
 globalConst = nil;
 globalManager = nil;
-startController = nil;
+
 --游戏逻辑开始
 function start()
 	globalData = GlobalData:new();

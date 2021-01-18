@@ -1,7 +1,7 @@
 -- 特效，场景形象 资源基类
 BaseResObj = class("BaseResObj");
 
-function BaseResObj:ctor(abPath,abAssetName)
+function BaseResObj:ctor(abPath,assetName)
 	self._go = nil;
 	self._transform = nil;
 
@@ -21,8 +21,8 @@ function BaseResObj:ctor(abPath,abAssetName)
 
 	self._scale = globalManager.poolManager:createVector3(1,1,1);
 
-	self._abPath = nil;
-	self._abAssetName = nil;
+	self._abPath = abPath;
+	self._abAssetName = assetName;
 end
 
 function BaseResObj:start(callback,target)
@@ -38,7 +38,9 @@ function BaseResObj:startLoad()
 end
 
 function BaseResObj:defaultModelLoadComplete(abName,assetName,abContent,asset)
-	self._go = newObject(asset);
+	print("BaseResObj:defaultModelLoadComplete",abName,assetName,asset);
+	self._go = UnityEngine.GameObject.Instantiate(asset);
+	self._go.name = assetName;
 	self._transform = self._go.transform;
 	self._actionController:start(self._go);
 	self:animatorLoadComplete();
@@ -49,7 +51,7 @@ function BaseResObj:animatorLoadComplete()
 	self:updatePosition();
 	self:updateRotation();
 	self:updateScale();
-	self:updateLayer();
+	-- self:updateLayer();
 	self:updateName();
 	self:loadCompleteCB();
 end

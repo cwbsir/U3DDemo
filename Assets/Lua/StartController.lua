@@ -70,15 +70,8 @@ function StartController:loadResComplete(abName,assetName,abContent,asset)
 end
 
 function StartController:startGame()
-	print("startGame");
-	globalManager.loaderManager:loadAB("map$20040.unity.u",nil,function()
-		print("回调成功")
-		end,self);
+	globalManager.eventDispatcher:dispatchEvent(globalConst.eventType.Scene_MapInfo_Complete,"20040");
 	
-	if self._gameScene == nil then
-		self._gameScene = GameScene:new();
-	end
-
 	-- local image = globalManager.kCreator:createImage();	
 	-- -- image:loadFromSpriteSheet("callpanel.u","callHeroImg1");
 	-- image:loadOutPic("callpanel-choukabg.png.u","callPanel-choukabg");

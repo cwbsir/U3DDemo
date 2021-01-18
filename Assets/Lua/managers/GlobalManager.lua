@@ -9,12 +9,17 @@ function GlobalManager:ctor()
 	self.loaderManager = nil;
 	self.cameraManager = nil;
 	self.triggerManager = nil;
-	self.gameEventDispatcher = nil;
+
+	self.moduleControllers = nil;
+
+	self.eventDispatcher = nil;
 
 	self.spriteSheetList = nil;
 end
 
 function GlobalManager:init()
+
+	self.eventDispatcher = EventDispatcher:new();
 
 	self.kCreator = KCreator:new();
 	self.tickManager = TickManager:new();
@@ -23,7 +28,8 @@ function GlobalManager:init()
 	self.loaderManager = LoaderManager:new();
 	self.templateParser = TemplateParser:new();
 
-	self.gameEventDispatcher = EventDispatcher:new();
+	self.sceneModule = SceneModule:new();
+
 
 	self.uiManager = UIManager:new();
 	self.cameraManager = CameraManager:new();

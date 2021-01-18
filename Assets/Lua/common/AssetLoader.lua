@@ -141,5 +141,9 @@ function AssetLoader:dispose()
 	self.text = nil;
 	self.bytes = nil;
 	self.texture = nil;
+	
+	if self.abContent ~= nil then
+		self.abContent:Unload(false);
+	end
 	self.abContent = nil;
 end

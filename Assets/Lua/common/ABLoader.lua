@@ -99,6 +99,7 @@ function ABLoader:loadComplete()
 end
 
 function ABLoader:doCallBack(qd)
+	-- print("ABLoader:doCallBack",self.abName);
 	local assetName = qd.params;
 	local curLoader = globalManager.loaderManager:getAssetLoader(self.abName);
 	local abContent = curLoader.abContent;

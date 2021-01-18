@@ -46,10 +46,16 @@ require "utils/Clone"
 require "managers/PoolManager"
 require "managers/TriggerManager"
 
-require "modules/GameScene"
 
-require "modules/scene/SceneObj"
-require "modules/scene/SceneRole"
+
+require "modules/scene/SceneModule"
+
+
+require "modules/scene/components/sceneObjs/SceneObj"
+require "modules/scene/components/sceneObjs/SceneRole"
+
+require "modules/scene/controllers/MapController"
+require "modules/scene/controllers/SceneObjController"
 
 require "resobjs/BaseResObj"
 require "resobjs/ResObjActionController"

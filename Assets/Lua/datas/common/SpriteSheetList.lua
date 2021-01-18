@@ -66,25 +66,25 @@ function SpriteSheetList:unloadSprite(abName,spriteName,cb,cbTarget)
 		end
 
 		if sheetInfo:isCanDestory() then
-			globalManager.loaderManager:removeAsset(abName,nil,self.spriteSheetLoadComplete,self);
+			globalManager.loaderManager:removeAB(abName,nil,self.spriteSheetLoadComplete,self);
 		end
 	end
 end
 
 function SpriteSheetList:spriteSheetLoadComplete(abName,assetName,abContent)
-	print("spriteSheetLoadComplete",abName);
+	-- print("spriteSheetLoadComplete",abName);
 	if abContent == nil then return; end
 	self:addSheet(abName,abContent);
-	print("spriteSheetLoadComplete11",abName);
+	-- print("spriteSheetLoadComplete11",abName);
 	local waitingLoadSheet = self.waitingLoadSheetDic[abName];
 	if waitingLoadSheet ~= nil then
-		print("spriteSheetLoadComplete22",abName);
+		-- print("spriteSheetLoadComplete22",abName);
 		local sheetInfo = self.list[abName];
 		local material = sheetInfo.material;
 		for k,v in pairs(waitingLoadSheet) do
 			local spriteName,list = k,v;
 			local len = #list;
-			print("spriteSheetLoadComplete33",spriteName,len);
+			-- print("spriteSheetLoadComplete33",spriteName,len);
 			local sprite = sheetInfo:getSprite(spriteName);
 			for i=1,len do
 				sheetInfo:addCount();

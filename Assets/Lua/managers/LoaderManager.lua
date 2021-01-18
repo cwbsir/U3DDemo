@@ -9,6 +9,7 @@ function LoaderManager:ctor()
 	self._dependencies = {};
 end
 
+--场景不能传assetName，否则会报错
 function LoaderManager:loadAB(abName,assetName,callback,target)
 	-- print("LoaderManager:loadAB",abName,assetName);
 	local abLoader = self._abLoaders[abName];
@@ -100,7 +101,6 @@ function LoaderManager:getDependList(abName)
 		for i=0, tmp.Length-1, 1 do
 			table.insert(depends, tmp[i]);
 		end
-		table.insert(depends, abName);
 		self._dependencies[abName] = depends;
 	end
 	return depends;
