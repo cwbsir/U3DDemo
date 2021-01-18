@@ -11,10 +11,10 @@ using UnityEngine.UI;
 
 public class TexturePackerBuild : Editor
 {
-    private const string BuildAllFolder = "KYTool/图集打包/打包图集";
-    private const string BuildSelect = "KYTool/图集打包/打包选中图集（当前目录下图片打包）";
-    private const string BuildAllChildren = "KYTool/图集打包/打包选中文件夹";
-    private const string BuildAllChildrenNoTrim = "KYTool/图集打包/打包选中文件夹(包括透明区域)";
+    private const string BuildAllFolder = "MyTools/图集/打包图集";
+    private const string BuildSelect = "MyTools/图集/打包选中图集（当前目录下图片打包）";
+    private const string BuildAllChildren = "MyTools/图集/打包选中文件夹";
+    private const string BuildAllChildrenNoTrim = "MyTools/图集/打包选中文件夹(包括透明区域)";
 
     /// <summary>
     /// 输出目录

@@ -18,7 +18,7 @@ class PSD2UI : MonoBehaviour
 	public static void PSD2Prefab()
 	{
 		//返回选中文件的绝对路径
-		string inputFile = EditorUtility.OpenFilePanel("Choose PSDUI File to Import", Application.dataPath+"/Resources/PSD/PSD/", "psd");
+		string inputFile = EditorUtility.OpenFilePanel("Choose PSDUI File to Import", Application.dataPath+"/PSD/PSD/", "psd");
 		// UnityEngine.Debug.Log("inputFile:"+inputFile);
 		if ((inputFile != null) && (inputFile != ""))
 		{
@@ -42,7 +42,7 @@ class PSD2UI : MonoBehaviour
 		// Debug.Log("###########执行命令结束###########");
 	}
 
-	[MenuItem("MyTools/打common图集")]
+	[MenuItem("MyTools/打包common图集")]
 	public static void BuildCommonUI()
 	{
 		PSD2Json(PSDConst.UI_COMMON_PATH,PSDConst.PSD_OUT_PATH+"UICommon/");
@@ -53,19 +53,7 @@ class PSD2UI : MonoBehaviour
 		string fileName = "UICommonPrefab.prefab";
 		string prefabPath = PSDConst.GUI_PATH + "UICommon/"+ fileName;
 
-
-		setSingleAssetBundleName(prefabPath,fileName);
-
-
- 		string assetBundleDirectory = "Assets/StreamingAssets";
-        if (!Directory.Exists(assetBundleDirectory))
-        {
-            Directory.CreateDirectory(assetBundleDirectory);
-        }
-        
-        BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
-
-		AssetDatabase.Refresh();
+		setFoldABNameAndPublish(Application.dataPath + "/Resources/GUI/UICommon");
 		UnityEngine.Debug.Log("###########common图集成功打完###########");
 	}
 
@@ -168,11 +156,7 @@ class PSD2UI : MonoBehaviour
 			PrefabUtility.CreatePrefab(prefabPath, gameobj, ReplacePrefabOptions.ReplaceNameBased);
 		}
 
-
-		SetAssetBundleName();
-		BuildAllAssetBundles();
-
-		AssetDatabase.Refresh();
+		setFoldABNameAndPublish(Application.dataPath + "/Resources/GUI/"+dirName+"/");
 	}
 
 	private static void oneCopyImgToTmpPath(Children child,string fileName = "")
@@ -291,6 +275,49 @@ class PSD2UI : MonoBehaviour
 	}
 
 
+	//设置文件夹ab包名
+	public static void setFoldABName(string path,Dictionary<string, List<string>> assetDic)
+	{
+        var dir = new DirectoryInfo(path);
+        var files = dir.GetFiles("*", SearchOption.AllDirectories);
+        for (var j = 0; j < files.Length; ++j)
+        {
+            FileInfo info = files[j];
+            string abName = setSingleAssetBundleName(info.FullName, info.Name);
+
+            if(abName == "")
+            {
+            	continue;
+            } 
+           if (!assetDic.ContainsKey(abName))
+            {
+                assetDic[abName] = new List<string>();
+            }
+            int subIdx = info.FullName.IndexOf("Assets");
+            string assetPath = info.FullName.Substring(subIdx);
+            assetDic[abName].Add(assetPath);
+        }
+	}
+	//设置文件夹ab包名并发布
+	public static void setFoldABNameAndPublish(string path)
+	{
+		Dictionary<string, List<string>> assetDic = new Dictionary<string, List<string>>();
+		setFoldABName(path,assetDic);
+        int j = 0;
+        //发布ab包
+        AssetBundleBuild[] builds = new AssetBundleBuild[assetDic.Count];
+        foreach (var item in assetDic)
+        {
+            string[] assetNames = item.Value.ToArray();
+            builds[j].assetNames = assetNames;
+            builds[j].assetBundleName = item.Key;
+            j++;
+        }
+		BuildPipeline.BuildAssetBundles(Application.dataPath + "/StreamingAssets", builds, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows);
+
+		AssetDatabase.Refresh();
+	}
+
 	[MenuItem("MyTools/AssetBundle/发布选中资源(文件)")]
 	public static void BuildSelectResABNameAndPublish()
 	{	
@@ -330,7 +357,6 @@ class PSD2UI : MonoBehaviour
         EditorUtility.DisplayDialog("完成", "发布选中文件名成功！", "确定");
 	}
 
-
     [MenuItem("MyTools/AssetBundle/发布文件夹资源")]
     public static void BuildSelectFoldABNameAndPubliush()
     {	
@@ -338,25 +364,7 @@ class PSD2UI : MonoBehaviour
         var paths = Selection.assetGUIDs.Select(AssetDatabase.GUIDToAssetPath).Where(AssetDatabase.IsValidFolder).ToList();
         for (int i = 0; i < paths.Count; i++)
         {
-            var dir = new DirectoryInfo(paths[i]);
-            var files = dir.GetFiles("*", SearchOption.AllDirectories);
-            for (var j = 0; j < files.Length; ++j)
-            {
-                FileInfo info = files[j];
-                string abName = setSingleAssetBundleName(info.FullName, info.Name);
-
-                if(abName == "")
-                {
-                	continue;
-                } 
-	           if (!assetDic.ContainsKey(abName))
-	            {
-	                assetDic[abName] = new List<string>();
-	            }
-	            int subIdx = info.FullName.IndexOf("Assets");
-	            string assetPath = info.FullName.Substring(subIdx);
-	            assetDic[abName].Add(assetPath);
-            }
+ 			setFoldABName(paths[i],assetDic);
         }
         int index = 0;
         AssetBundleBuild[] builds = new AssetBundleBuild[assetDic.Count];
