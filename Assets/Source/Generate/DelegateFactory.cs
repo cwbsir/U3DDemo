@@ -41,6 +41,9 @@ public class DelegateFactory
 		dict.Add(typeof(UnityEngine.UI.InputField.OnValidateInput), factory.UnityEngine_UI_InputField_OnValidateInput);
 		dict.Add(typeof(UnityEngine.Events.UnityAction<string>), factory.UnityEngine_Events_UnityAction_string);
 		dict.Add(typeof(UnityEngine.Events.UnityAction<bool>), factory.UnityEngine_Events_UnityAction_bool);
+		dict.Add(typeof(UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>), factory.UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode);
+		dict.Add(typeof(UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene>), factory.UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene);
+		dict.Add(typeof(UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>), factory.UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene);
 		dict.Add(typeof(UnityEngine.Font.FontTextureRebuildCallback), factory.UnityEngine_Font_FontTextureRebuildCallback);
 		dict.Add(typeof(System.Action<UnityEngine.Font>), factory.System_Action_UnityEngine_Font);
 		dict.Add(typeof(System.Func<string,UnityEngine.GameObject>), factory.System_Func_string_UnityEngine_GameObject);
@@ -69,6 +72,9 @@ public class DelegateFactory
 		DelegateTraits<UnityEngine.UI.InputField.OnValidateInput>.Init(factory.UnityEngine_UI_InputField_OnValidateInput);
 		DelegateTraits<UnityEngine.Events.UnityAction<string>>.Init(factory.UnityEngine_Events_UnityAction_string);
 		DelegateTraits<UnityEngine.Events.UnityAction<bool>>.Init(factory.UnityEngine_Events_UnityAction_bool);
+		DelegateTraits<UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>>.Init(factory.UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode);
+		DelegateTraits<UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene>>.Init(factory.UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene);
+		DelegateTraits<UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>>.Init(factory.UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene);
 		DelegateTraits<UnityEngine.Font.FontTextureRebuildCallback>.Init(factory.UnityEngine_Font_FontTextureRebuildCallback);
 		DelegateTraits<System.Action<UnityEngine.Font>>.Init(factory.System_Action_UnityEngine_Font);
 		DelegateTraits<System.Func<string,UnityEngine.GameObject>>.Init(factory.System_Func_string_UnityEngine_GameObject);
@@ -97,6 +103,9 @@ public class DelegateFactory
 		TypeTraits<UnityEngine.UI.InputField.OnValidateInput>.Init(factory.Check_UnityEngine_UI_InputField_OnValidateInput);
 		TypeTraits<UnityEngine.Events.UnityAction<string>>.Init(factory.Check_UnityEngine_Events_UnityAction_string);
 		TypeTraits<UnityEngine.Events.UnityAction<bool>>.Init(factory.Check_UnityEngine_Events_UnityAction_bool);
+		TypeTraits<UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>>.Init(factory.Check_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode);
+		TypeTraits<UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene>>.Init(factory.Check_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene);
+		TypeTraits<UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>>.Init(factory.Check_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene);
 		TypeTraits<UnityEngine.Font.FontTextureRebuildCallback>.Init(factory.Check_UnityEngine_Font_FontTextureRebuildCallback);
 		TypeTraits<System.Action<UnityEngine.Font>>.Init(factory.Check_System_Action_UnityEngine_Font);
 		TypeTraits<System.Func<string,UnityEngine.GameObject>>.Init(factory.Check_System_Func_string_UnityEngine_GameObject);
@@ -125,6 +134,9 @@ public class DelegateFactory
 		StackTraits<UnityEngine.UI.InputField.OnValidateInput>.Push = factory.Push_UnityEngine_UI_InputField_OnValidateInput;
 		StackTraits<UnityEngine.Events.UnityAction<string>>.Push = factory.Push_UnityEngine_Events_UnityAction_string;
 		StackTraits<UnityEngine.Events.UnityAction<bool>>.Push = factory.Push_UnityEngine_Events_UnityAction_bool;
+		StackTraits<UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>>.Push = factory.Push_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode;
+		StackTraits<UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene>>.Push = factory.Push_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene;
+		StackTraits<UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>>.Push = factory.Push_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene;
 		StackTraits<UnityEngine.Font.FontTextureRebuildCallback>.Push = factory.Push_UnityEngine_Font_FontTextureRebuildCallback;
 		StackTraits<System.Action<UnityEngine.Font>>.Push = factory.Push_System_Action_UnityEngine_Font;
 		StackTraits<System.Func<string,UnityEngine.GameObject>>.Push = factory.Push_System_Func_string_UnityEngine_GameObject;
@@ -1629,6 +1641,181 @@ public class DelegateFactory
 	}
 
 	void Push_UnityEngine_Events_UnityAction_bool(IntPtr L, UnityEngine.Events.UnityAction<bool> o)
+	{
+		ToLua.Push(L, o);
+	}
+
+	class UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_Event : LuaDelegate
+	{
+		public UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_Event(LuaFunction func) : base(func) { }
+		public UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_Event(LuaFunction func, LuaTable self) : base(func, self) { }
+
+		public void Call(UnityEngine.SceneManagement.Scene param0, UnityEngine.SceneManagement.LoadSceneMode param1)
+		{
+			func.BeginPCall();
+			func.PushValue(param0);
+			func.Push(param1);
+			func.PCall();
+			func.EndPCall();
+		}
+
+		public void CallWithSelf(UnityEngine.SceneManagement.Scene param0, UnityEngine.SceneManagement.LoadSceneMode param1)
+		{
+			func.BeginPCall();
+			func.Push(self);
+			func.PushValue(param0);
+			func.Push(param1);
+			func.PCall();
+			func.EndPCall();
+		}
+	}
+
+	public UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode(LuaFunction func, LuaTable self, bool flag)
+	{
+		if (func == null)
+		{
+			UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> fn = delegate(UnityEngine.SceneManagement.Scene param0, UnityEngine.SceneManagement.LoadSceneMode param1) { };
+			return fn;
+		}
+
+		if(!flag)
+		{
+			UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_Event target = new UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_Event(func);
+			UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> d = target.Call;
+			target.method = d.Method;
+			return d;
+		}
+		else
+		{
+			UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_Event target = new UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_Event(func, self);
+			UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> d = target.CallWithSelf;
+			target.method = d.Method;
+			return d;
+		}
+	}
+
+	bool Check_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode(IntPtr L, int pos)
+	{
+		return TypeChecker.CheckDelegateType(typeof(UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>), L, pos);
+	}
+
+	void Push_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode(IntPtr L, UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode> o)
+	{
+		ToLua.Push(L, o);
+	}
+
+	class UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_Event : LuaDelegate
+	{
+		public UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_Event(LuaFunction func) : base(func) { }
+		public UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_Event(LuaFunction func, LuaTable self) : base(func, self) { }
+
+		public void Call(UnityEngine.SceneManagement.Scene param0)
+		{
+			func.BeginPCall();
+			func.PushValue(param0);
+			func.PCall();
+			func.EndPCall();
+		}
+
+		public void CallWithSelf(UnityEngine.SceneManagement.Scene param0)
+		{
+			func.BeginPCall();
+			func.Push(self);
+			func.PushValue(param0);
+			func.PCall();
+			func.EndPCall();
+		}
+	}
+
+	public UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene> UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene(LuaFunction func, LuaTable self, bool flag)
+	{
+		if (func == null)
+		{
+			UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene> fn = delegate(UnityEngine.SceneManagement.Scene param0) { };
+			return fn;
+		}
+
+		if(!flag)
+		{
+			UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_Event target = new UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_Event(func);
+			UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene> d = target.Call;
+			target.method = d.Method;
+			return d;
+		}
+		else
+		{
+			UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_Event target = new UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_Event(func, self);
+			UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene> d = target.CallWithSelf;
+			target.method = d.Method;
+			return d;
+		}
+	}
+
+	bool Check_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene(IntPtr L, int pos)
+	{
+		return TypeChecker.CheckDelegateType(typeof(UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene>), L, pos);
+	}
+
+	void Push_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene(IntPtr L, UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene> o)
+	{
+		ToLua.Push(L, o);
+	}
+
+	class UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_Event : LuaDelegate
+	{
+		public UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_Event(LuaFunction func) : base(func) { }
+		public UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_Event(LuaFunction func, LuaTable self) : base(func, self) { }
+
+		public void Call(UnityEngine.SceneManagement.Scene param0, UnityEngine.SceneManagement.Scene param1)
+		{
+			func.BeginPCall();
+			func.PushValue(param0);
+			func.PushValue(param1);
+			func.PCall();
+			func.EndPCall();
+		}
+
+		public void CallWithSelf(UnityEngine.SceneManagement.Scene param0, UnityEngine.SceneManagement.Scene param1)
+		{
+			func.BeginPCall();
+			func.Push(self);
+			func.PushValue(param0);
+			func.PushValue(param1);
+			func.PCall();
+			func.EndPCall();
+		}
+	}
+
+	public UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene(LuaFunction func, LuaTable self, bool flag)
+	{
+		if (func == null)
+		{
+			UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> fn = delegate(UnityEngine.SceneManagement.Scene param0, UnityEngine.SceneManagement.Scene param1) { };
+			return fn;
+		}
+
+		if(!flag)
+		{
+			UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_Event target = new UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_Event(func);
+			UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> d = target.Call;
+			target.method = d.Method;
+			return d;
+		}
+		else
+		{
+			UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_Event target = new UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene_Event(func, self);
+			UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> d = target.CallWithSelf;
+			target.method = d.Method;
+			return d;
+		}
+	}
+
+	bool Check_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene(IntPtr L, int pos)
+	{
+		return TypeChecker.CheckDelegateType(typeof(UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>), L, pos);
+	}
+
+	void Push_UnityEngine_Events_UnityAction_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_Scene(IntPtr L, UnityEngine.Events.UnityAction<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene> o)
 	{
 		ToLua.Push(L, o);
 	}

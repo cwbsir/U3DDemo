@@ -1,0 +1,77 @@
+ManifestFileVersion: 0
+CRC: 4149910135
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ec9fa97f699db7c4140548299ce2f82c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_grass03.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden11.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_fence01.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_light02.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_grass05.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden12.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_tree04.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_grass04.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_grass07.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_grass02.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_house04.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden07.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_grass06.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden14.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_box02.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_stone07.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden10.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_10008_water.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden05.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_tent01.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_tree06.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_box01.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden01.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden06.FBX
+- Assets/Resources/Maps/Compond/Map_05/Materials/Map_08_tx01.mat
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden02.FBX
+- Assets/Resources/Maps/Compond/Map_05/Materials/Map_08_tx01.png
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_house03.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_house02.FBX
+- Assets/Resources/Maps/Compond/Map_05/Materials/Map_08_tx02.mat
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_stone08.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_grass08.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden03.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_fence03.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_tent02.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_grass01.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_roadSignal01.FBX
+- Assets/Resources/Maps/Compond/Map_05/Materials/Map_08_tx02.png
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden09.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_bridge01.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden13.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_light01.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_tent03.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_wooden08.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_08_stone04.FBX
+- Assets/Resources/Maps/Compond/Map_05/Models/Map_20004_water.FBX
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/map$common.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u

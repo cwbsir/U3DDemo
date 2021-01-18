@@ -1,0 +1,136 @@
+ManifestFileVersion: 0
+CRC: 1509893748
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8cb70a41088907e20b4377a346504368
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx05.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx01.png
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx02t.mat
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/waterfall.png
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_stone01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_05_bridge01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_stone01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_tree01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_04_tx04.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass10.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_coral03.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass17.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_014_goldcoin01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_05_bridge03.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx05t.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass11.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/skybox01.png
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_05_stone02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_flower03.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/Map_04_water.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_house05.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass06.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/lava.tga
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_053_tree01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_08_stone02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_08_tx03.png
+- Assets/Resources/Maps/Compond/Common/Fx_source/Models/waterfall.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass19.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_coral01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_06_flower03.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass15.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass07.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass20.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Models/Skybox02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass18.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_08_tx03.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_08_tree03.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/Map_06_water.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_05_stone03.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/skybox01.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx06.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_05_tree03.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_053_grass1.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/wave.png
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/sky01.png
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/skybox02.png
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_house06.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_04_tx04.png
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx06.png
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx03.png
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_stone06.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_stone02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass12.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_08_stone05.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx04.png
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/skybox02.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_06_flower02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_wooden04.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_conch01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx03.mat
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/skybox03.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_053_tree03.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_08_tree02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_06_flower01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_flower01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_tree03.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_08_stone06.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_coral04.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/lightshaft.tif
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_08_tree01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx04.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx05.png
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/Light.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_10_tx06.png
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/wave02.jpg
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_tree02.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/lava.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_05_tree02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass16.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx01.mat
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/wave.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_08_stone01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_stone02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_05_stone01.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_053_tree02.FBX
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/spark.mat
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/Map_05_water.mat
+- Assets/Resources/Maps/Compond/Common/Fx_source/Models/sun_light.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_08_stone03.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_stone05.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass05.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_014_goldcoin02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_10_tx06.mat
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass13.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_coral02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx02.png
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/spark.tif
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_grass08.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_09_flower02.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_house07.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Model/Map_04_house08.FBX
+- Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx02.mat
+- Assets/Resources/Maps/Compond/Common/Fx_source/Materials/waterfall.mat
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/map$compond$map_04.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u

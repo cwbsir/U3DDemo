@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 239241326
+CRC: 2682491659
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 92f6bee61a5f1e96d93b1898fea702d6
+    Hash: 1c0340bec8f00d47ff2fd177a1f5703d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 9282560e1d80bb50e2b04c6963f1d8d2
+    Hash: 71b98782d00ba7d9c6bfa9b6fa73f98d
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,6 +37,6 @@ Assets:
 - Assets/Resources/GUI/gameMenuView/gameMenuView.png
 - Assets/Resources/GUI/gameMenuView/gameMenuView_alpha.png
 Dependencies:
-- D:/Desktop/myproject/unity_project/MyLand_s/Assets/StreamingAssets/shader.u
-- D:/Desktop/myproject/unity_project/MyLand_s/Assets/StreamingAssets/font.u
-- D:/Desktop/myproject/unity_project/MyLand_s/Assets/StreamingAssets/uicommon.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/uicommon.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/font.u

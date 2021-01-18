@@ -1,0 +1,91 @@
+ManifestFileVersion: 0
+CRC: 2672064843
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d06a16d94957c98c357d567d4b777528
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_umbrella02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_chair03.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_water_10005.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_tree07.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_water01_10014.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_house02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden09.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_bridge02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_boat03.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_boat01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_pendant01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_balloon01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden016.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_seashell01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Materials/Map_05_tx01.png
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden017.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_bridge05.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden010.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_water_20002.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_light02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_grass02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden011.FBX
+- Assets/Resources/Maps/Compond/Map_02/Materials/Map_05_tx02.mat
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_bag01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden04.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden03.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_house01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden07.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_door01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_chair01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_light01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_boat05.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_umbrella03.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden014.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_roadsign01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden06.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_tree06.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_boat06.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_pendant04.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_chair02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_boat02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden015.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden012.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden05.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_roadsign02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_umbrella01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden08.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_table01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_tree05.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_balloon02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_20008_water.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_wooden013.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_bridge06.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_fence01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_pendant02.FBX
+- Assets/Resources/Maps/Compond/Map_02/Materials/Map_05_tx01.mat
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_tree01.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_bridge08.FBX
+- Assets/Resources/Maps/Compond/Map_02/Models/Map_05_bridge07.FBX
+- Assets/Resources/Maps/Compond/Map_02/Materials/Map_05_tx02.png
+Dependencies: []

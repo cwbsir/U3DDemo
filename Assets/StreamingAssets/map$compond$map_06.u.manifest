@@ -1,0 +1,118 @@
+ManifestFileVersion: 0
+CRC: 2924747407
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bdfc37133bcc66441e042dffdfdefd95
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden06.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden11.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx02.mat
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_platform04.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden07.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant02.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_house09.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant04.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx04.mat
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ icecarving03.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_platform02.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden14.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice10.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wood03.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice09.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden10.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_box02.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant05.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx01.mat
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_house03.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_stone01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx02.png
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ icecarving01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice12.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ icecarving02.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice06.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant13.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx01_alpha.png
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_platform03.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx10.mat
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice02.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden12.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_house08.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx03.png
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant08.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ tree03.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx03.mat
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden17.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_side01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_stair.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_house04.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ icecarving04.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10013_water.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice08.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_house02.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden18.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_house05.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_vase.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant12.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_statue01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant07.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx04.png
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice03.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden09.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden03.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx05.mat
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_platform01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden04.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant10.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx01.png
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant09.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ tree02.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden13.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice07.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden05.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden16.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden08.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden02.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_house01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant03.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant06.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10010_water.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_house07.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_fence01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wood02.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice04.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wooden15.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_box01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_house06.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ice05.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_ tree01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_wood01.FBX
+- Assets/Resources/Maps/Compond/Map_06/Materials/Map_10_tx05.png
+- Assets/Resources/Maps/Compond/Map_06/Models/Map_10_plant11.FBX
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/map$common.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u

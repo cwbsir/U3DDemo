@@ -1,0 +1,70 @@
+ManifestFileVersion: 0
+CRC: 912440880
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 408ef345bfee0c0ad99677b3f2681825
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_fence02.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_statue01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Materials/Map_04_tx05.png
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_house02.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_bridge01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_water_20001.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_mushroom01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_stone08.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_roadSignal01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_mushroom02.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_wooden06.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_house01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_bridge03.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_wooden07.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_10004_water01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_roadSignal02.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_mushroom04.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_wooden01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_platform01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_wooden02.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_wooden05.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_stone07.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_grocery02.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_tree04.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_bottle01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Materials/Map_04_tx05.mat
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_grocery03.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_mushroom05.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_grocery01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_bag01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_tree05.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_wooden03.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_stone04.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_stone03.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_grocery04.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_house03.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_bridge02.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_fence01.FBX
+- Assets/Resources/Maps/Compond/Map_01/Models/Map_04_mushroom03.FBX
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/map$common.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u

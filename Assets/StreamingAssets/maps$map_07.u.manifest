@@ -1,0 +1,124 @@
+ManifestFileVersion: 0
+CRC: 963722901
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 130e7415c3b3537f307380234f5c8dfa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house13.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stone02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stairs06.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx05.mat
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_cloth02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_grass03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house08.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house10.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_vase04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_platform02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_10015_water.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_brick02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx01.mat
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_carpet01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_tent06.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house12.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx07.png
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stone01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx01.png
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_broken01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_brazier02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx03.mat
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_vase01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_Pillar02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_vase03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_grass02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_Pillar03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house06.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stairs05.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_brick01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_cloth01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx05.png
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_ground01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stone04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_tree02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stairs01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_tent04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house05.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx07.mat
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx04.mat
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_fence01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx02.mat
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_light01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_vase05.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_carpet03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stone05.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_grass01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stairs02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_carpet02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_plant03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_wall01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_grass04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_wood04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx03.png
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stone03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_tree01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_brick04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_fence04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_fence03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house11.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_wood02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_platform01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_bone02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house09.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx02.png
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_10011_water.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_wall02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stairs03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx04.png
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_vase02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx06.png
+- Assets/Resources/Maps/Compond/Map_07/Materials/Map_11_tx06.mat
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_bone01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_plant01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_tent01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_brazier01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stairs07.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_tent03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_20029_water.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_plant04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_tent02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_tree03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_house07.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_tent05.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_stairs04.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_wood01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_wood03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_fence02.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_brick03.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_Pillar01.FBX
+- Assets/Resources/Maps/Compond/Map_07/Models/Map_11_plant02.FBX
+Dependencies: []

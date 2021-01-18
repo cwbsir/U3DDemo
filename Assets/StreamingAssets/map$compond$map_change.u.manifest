@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 1164791667
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e23a421f7fea4e1996c5bb41926e9099
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/Compond/Map_Change/Models/temple_road.FBX
+- Assets/Resources/Maps/Compond/Map_Change/Models/temple_floor.FBX
+- Assets/Resources/Maps/Compond/Map_Change/Materials/temple_tex03.mat
+- Assets/Resources/Maps/Compond/Map_Change/Models/temple_background.FBX
+- Assets/Resources/Maps/Compond/Map_Change/Models/temple_platform03.FBX
+- Assets/Resources/Maps/Compond/Map_Change/Materials/temple_tex01.mat
+- Assets/Resources/Maps/Compond/Map_Change/Models/temple_background01.FBX
+- Assets/Resources/Maps/Compond/Map_Change/Materials/temple_tex03.png
+- Assets/Resources/Maps/Compond/Map_Change/Materials/temple_tex01.png
+- Assets/Resources/Maps/Compond/Map_Change/Models/temple_side02.FBX
+- Assets/Resources/Maps/Compond/Map_Change/Models/temple_side01.FBX
+- Assets/Resources/Maps/Compond/Map_Change/Materials/temple_tex02.png
+- Assets/Resources/Maps/Compond/Map_Change/Models/temple_platform01.FBX
+- Assets/Resources/Maps/Compond/Map_Change/Materials/temple_tex02.mat
+- Assets/Resources/Maps/Compond/Map_Change/Models/temple_platform02.FBX
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u

@@ -1,0 +1,223 @@
+ManifestFileVersion: 0
+CRC: 3735227570
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0ac9370e8a85975c156766f767250fc9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wooden01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_011_ground03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_plant01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_gate03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx06.mat
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx12.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_weapon05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick14.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grocery01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_crane01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx06.png
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx11.png
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_gate02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_003_pillarBroken01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_011_ground06.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground08.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grocery05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house10.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_003_pillarBroken02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_weapon01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_weapon03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_20024_water.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_flowerpot02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_stairs03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall13.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_bucket01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx13.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house07.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grass04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx10.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_plant06.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx04.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grocery06.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grocery03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick11.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brokenwall01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall11.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grocery04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_fountain01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_weapon06.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick12.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_plant03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx15.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall08.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx01.PNG
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick09.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall07.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_tree02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_stairs06.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_011_ground05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house08.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_pattern04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx04.PNG
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_gate05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall06.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_011_ground04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_statue01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx12.PNG
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_plant05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground07.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_plant04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_balloons05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_weapon02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx09.png
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_column01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall12.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_water03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall10.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx03.png
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_pillars01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_lamp03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_parterre01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall16.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_boat02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_gate01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick10.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_lamp01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_pattern03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_boat01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx07t.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_20041_water.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brokenwall02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_003_pillarBroken03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground14.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick16.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx11.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_Petal01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_stairs04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground06.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_weapon04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx05.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_balloons01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_042_wooden.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick18.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wharf02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_003_Platform.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx15.png
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_gate04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_box01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house06.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house09.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_flowerpot03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground13.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx10.PNG
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_042_pattern01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_003_brick01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_house13.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_pillars05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_pattern02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_botany01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx02.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house11.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx09.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_011_ground01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_pillars04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_lamp02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick08.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_water01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_flag01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_balloons04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx03.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_10009_water.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_weapon07.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house12.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_stairs01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_plant07.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx02.png
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_042_pattern.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grocery07.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall15.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick15.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx01.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_20026_water.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx13.png
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grass03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_pattern01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_water04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick17.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_stairs02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground12.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_stairs05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_jar01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx07.png
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_flowerpot04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_chair01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick05.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_042_wooden01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grocery02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_009_ground01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground10.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_swan01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick13.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_weapon08.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall09.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_grass02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall14.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_balloons03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wharf01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall17.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_005_gear.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_045_stairs08.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_ground11.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_house02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_011_ground02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brokenwall03.FBX
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx05.PNG
+- Assets/Resources/Maps/Compond/Map_03/Materials/Map_06_tx07.mat
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_flowerpot01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_brick07.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_pillars02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_wall02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_stairs07.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_water02.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_06_tree01.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_003_pillarBroken04.FBX
+- Assets/Resources/Maps/Compond/Map_03/Models/Map_20013_water.FBX
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u

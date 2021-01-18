@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 2918922002
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0bfc691cec8127cc4c95287c6b34f45b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6bff4ba96f8bd2c0b21f547afb7f2e57
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: acc0f780d51facb4f90583d7004f9669, type: 3}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 258
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/20040.unity
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/map$compond$map_03.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/map$common.u

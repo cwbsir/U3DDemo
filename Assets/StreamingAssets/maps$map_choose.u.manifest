@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 3861910547
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d618e116f55b15cb315b994a3e9e226c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb5cff3a1350143ce413b676b0fb473f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_grass08.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_grass01.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_stone01.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_car01.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_background01.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Materials/Map_Choose_tx04.mat
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_firewood01.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_tree02.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_tree03.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_grass09.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Materials/Map_Choose_tx01.mat
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_tree07.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_grass05.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_wooden01.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_tree05.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Materials/Map_Choose_tx02.png
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_tree06.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_grass10.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_house01.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_tree01.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Models/Map_Choose_grass04.FBX
+- Assets/Resources/Maps/Compond/Map_Choose/Materials/Map_Choose_tx01.png
+- Assets/Resources/Maps/Compond/Map_Choose/Materials/Map_Choose_tx03.mat
+- Assets/Resources/Maps/Compond/Map_Choose/Materials/Map_Choose_tx02.mat
+Dependencies: []

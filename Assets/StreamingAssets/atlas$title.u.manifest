@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1595524856
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4f0fb7de70defc08f1fe1abc72e1c151
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bf45b40ea2842be0dc628356c2622ec8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Atlas/title/title.prefab
+- Assets/Resources/Atlas/title/title_alpha.png
+- Assets/Resources/Atlas/title/title_etc.mat
+- Assets/Resources/Atlas/title/title.png
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u

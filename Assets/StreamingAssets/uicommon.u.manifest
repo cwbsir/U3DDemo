@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1167378350
+CRC: 4100514073
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 157c211e2b3f4e4e6565e354c3ab49fb
+    Hash: 36eaed572369ed354ef586fb0e609d19
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b7d8ee2d2dee8f373392a6dceeb147c5
+    Hash: fa5fb3cc3d465eba2d44a2fa5b998ff9
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -65,9 +65,10 @@ Assets:
 - Assets/Resources/GUI/UICommon/commonItemUI_clockItemPrefab.prefab
 - Assets/Resources/GUI/UICommon/InputField.prefab
 - Assets/Resources/GUI/UICommon/commonItemUI_clockItemPrefab 1.prefab
+- Assets/Resources/GUI/UICommon/UICommonPrefab.prefab
 - Assets/Resources/GUI/UICommon/Canvas.prefab
 - Assets/Resources/GUI/UICommon/EventSystem.prefab
 Dependencies:
-- D:/Desktop/myproject/unity_project/MyLand_s/Assets/StreamingAssets/shader.u
-- D:/Desktop/myproject/unity_project/MyLand_s/Assets/StreamingAssets/font.u
-- D:/Desktop/myproject/unity_project/MyLand_s/Assets/StreamingAssets/commonitemui.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/commonitemui.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/font.u

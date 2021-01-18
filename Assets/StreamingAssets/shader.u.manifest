@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3435213187
+CRC: 2065363081
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a1c331b58bc339e2fd384b2d01d802fe
+    Hash: 90b3579d1c61827886b7d30e8dc0f92e
   TypeTreeHash:
     serializedVersion: 2
     Hash: d1f8190f465e6d3099ac0770229e4237
@@ -14,16 +14,33 @@ ClassTypes:
 - Class: 109
   Script: {instanceID: 0}
 Assets:
+- Assets/Resources/Shader/Scene/WaterTransparent.shader
 - Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_SCROLL.shader
+- Assets/Resources/Shader/Scene/CollectionFlow.shader
+- Assets/Resources/Shader/Scene/FarViewCut.shader
+- Assets/Resources/Shader/KyUnity.cginc
 - Assets/Resources/Shader/PSD2UGUI/UiObj_Mask.shader
 - Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_SPLIT_ALPHA.shader
 - Assets/Resources/Shader/PSD2UGUI/FontOutline.shader
 - Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_ICON.shader
 - Assets/Resources/Shader/PSD2UGUI/UiObj.shader
+- Assets/Resources/Shader/Scene/Terrain.shader
+- Assets/Resources/Shader/Scene/FlowWater.shader
+- Assets/Resources/Shader/Effect/FlowDisturbAdd.shader
+- Assets/Resources/Shader/Scene/EmissiveStaticObj.shader
 - Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_OUTPIC_GREY.shader
 - Assets/Resources/Shader/PSD2UGUI/PSD2UGUI.shader
+- Assets/Resources/Shader/Effect/Add.shader
+- Assets/Resources/Shader/Scene/Collection.shader
 - Assets/Resources/Shader/PSD2UGUI/FontOutline2.shader
+- Assets/Resources/Shader/Scene/PlantFlutterCut.shader
+- Assets/Resources/Shader/Scene/PlantOpaque.shader
 - Assets/Resources/Shader/PSD2UGUI/Default_Gray.shader
-- Assets/Resources/Shader/KyUnity.cginc
+- Assets/Resources/Shader/Scene/StaticObjLow.shader
+- Assets/Resources/Shader/Scene/Sky.shader
 - Assets/Resources/Shader/PSD2UGUI/PSD2UGUI_SPLIT_ALPHA_GREY.shader
+- Assets/Resources/Shader/Scene/PlantCut.shader
+- Assets/Resources/Shader/Character/PlayerHigh2.shader
+- Assets/Resources/Shader/Scene/DynamicObj.shader
+- Assets/Resources/Shader/Scene/TransparentObj.shader
 Dependencies: []

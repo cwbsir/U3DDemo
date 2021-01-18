@@ -8,11 +8,13 @@ public class LuaManagerWrap
 	{
 		L.BeginClass(typeof(LuaManager), typeof(UnityEngine.MonoBehaviour));
 		L.RegFunction("CheckExtractGameLua", CheckExtractGameLua);
+		L.RegFunction("UnZipResource", UnZipResource);
 		L.RegFunction("InitLua", InitLua);
 		L.RegFunction("LuaDoString", LuaDoString);
 		L.RegFunction("DoFile", DoFile);
 		L.RegFunction("CallFunction", CallFunction);
 		L.RegFunction("LuaGC", LuaGC);
+		L.RegFunction("UnLuaZip", UnLuaZip);
 		L.RegFunction("Close", Close);
 		L.RegFunction("__eq", op_Equality);
 		L.RegFunction("__tostring", ToLua.op_ToString);
@@ -28,6 +30,22 @@ public class LuaManagerWrap
 			ToLua.CheckArgsCount(L, 1);
 			LuaManager obj = (LuaManager)ToLua.CheckObject<LuaManager>(L, 1);
 			obj.CheckExtractGameLua();
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int UnZipResource(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			LuaManager obj = (LuaManager)ToLua.CheckObject<LuaManager>(L, 1);
+			obj.UnZipResource();
 			return 0;
 		}
 		catch (Exception e)
@@ -114,6 +132,39 @@ public class LuaManagerWrap
 			LuaManager obj = (LuaManager)ToLua.CheckObject<LuaManager>(L, 1);
 			obj.LuaGC();
 			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int UnLuaZip(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+
+			if (count == 2)
+			{
+				LuaManager obj = (LuaManager)ToLua.CheckObject<LuaManager>(L, 1);
+				string arg0 = ToLua.CheckString(L, 2);
+				obj.UnLuaZip(arg0);
+				return 0;
+			}
+			else if (count == 3)
+			{
+				LuaManager obj = (LuaManager)ToLua.CheckObject<LuaManager>(L, 1);
+				string arg0 = ToLua.CheckString(L, 2);
+				string arg1 = ToLua.CheckString(L, 3);
+				obj.UnLuaZip(arg0, arg1);
+				return 0;
+			}
+			else
+			{
+				return LuaDLL.luaL_throw(L, "invalid arguments to method: LuaManager.UnLuaZip");
+			}
 		}
 		catch (Exception e)
 		{

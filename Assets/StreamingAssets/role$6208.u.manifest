@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 4084074099
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0bca32643d29c727954aef3b78a733ab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4ca06b135f803735410326e1e56c74c8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Roles/Role/6208/Materials/Tx_6208.png
+- Assets/Resources/Roles/Role/6208/Animation/6208_idle.anim
+- Assets/Resources/Roles/Role/6208/Animation/6208_attack01.anim
+- Assets/Resources/Roles/Role/6208/Animation/6208_dazuo.anim
+- Assets/Resources/Roles/Role/6208/Materials/Tx_6208_ap01.png
+- Assets/Resources/Roles/Role/6208/Animation/6208_win.anim
+- Assets/Resources/Roles/Role/6208/Animation/6208_fall.anim
+- Assets/Resources/Roles/Role/6208/Models/6208.FBX
+- Assets/Resources/Roles/Role/6208/Animation/6208_run.anim
+- Assets/Resources/Roles/Role/6208/Animation/6208_skill01.anim
+- Assets/Resources/Roles/Role/6208/Animation/6208_up.anim
+- Assets/Resources/Roles/Role/6208/Animation/6208_die.anim
+- Assets/Resources/Roles/Role/6208/Animation/6208_hit.anim
+- Assets/Resources/Roles/Role/6208/Materials/Tx_6208_N.png
+- Assets/Resources/Roles/Role/6208/Materials/Tx_6208_ui.mat
+- Assets/Resources/Roles/Role/6208/Animation/6208_stun.anim
+- Assets/Resources/Roles/Role/6208/Animation/6208_show.anim
+- Assets/Resources/Roles/Role/6208/Materials/Tx_6208_ap.png
+- Assets/Resources/Roles/Role/6208/Animation/6208_Controller.controller
+- Assets/Resources/Roles/Role/6208/6208.prefab
+- Assets/Resources/Roles/Role/6208/Animation/6208_skill02.anim
+Dependencies:
+- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
