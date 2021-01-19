@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 6266131
+CRC: 3608567160
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 408ff348ad9576e78010ae19be69160c
+    Hash: b8208f10d110dc70f8e7a870f6319d76
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -219,5 +219,4 @@ Assets:
 - Assets/Resources/Maps/Compond/Map_03/Models/Map_06_tree01.FBX
 - Assets/Resources/Maps/Compond/Map_03/Models/Map_003_pillarBroken04.FBX
 - Assets/Resources/Maps/Compond/Map_03/Models/Map_20013_water.FBX
-Dependencies:
-- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
+Dependencies: []

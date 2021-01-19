@@ -1,5 +1,9 @@
 StartController = class("StartController");
 
+function StartController:ctor()
+	self.mainMenu = nil;
+end
+
 function StartController:startLoad()
 	self.lastTime = 0;
 	-- print("Application.dataPath",UnityEngine.Application.dataPath);
@@ -70,6 +74,10 @@ function StartController:loadResComplete(abName,assetName,abContent,asset)
 end
 
 function StartController:startGame()
+	if self.mainMenu == nil then
+		self.mainMenu = MainMenu:new();
+	end
+	self.mainMenu:initView();
 	globalManager.eventDispatcher:dispatchEvent(globalConst.eventType.Scene_MapInfo_Complete,"20040");
 	
 	-- local image = globalManager.kCreator:createImage();	

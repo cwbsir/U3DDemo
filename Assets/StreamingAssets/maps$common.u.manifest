@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3540444835
+CRC: 2535785464
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6190ef6884dd6097bee6930fc18e2915
+    Hash: 4ff2bac7faf9ebb2561420f42e907760
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -132,5 +132,4 @@ Assets:
 - Assets/Resources/Maps/Compond/Common/Map_model/Materials/Map_tx02.mat
 - Assets/Resources/Maps/Compond/Common/Fx_source/Materials/waterfall.mat
 Dependencies:
-- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
 - D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/maps$map_04.u

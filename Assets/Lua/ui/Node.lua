@@ -7,6 +7,7 @@ function Node:ctor()
 	self._isShow = true;
 	self.transform = nil;
 	self.component = nil;
+	self._parentTr = nil;
 
 	self._cbTarget = nil;
 	self._clickCB = nil;
@@ -39,7 +40,6 @@ function Node:setObject(object,transform)
 			self.transform.anchorMin = globalManager.kCreator.pivotPoint1;
 		end
 	end
-
 	self:createComponent();
 end
 
@@ -89,7 +89,6 @@ function Node:getChildByName(name,typeStr)
 	elseif(typeStr == "Button")then
 		bnode = globalManager.poolManager:createButton(true);
 	elseif(typeStr == "Label")then
-		print("Label =============",name,transform.anchoredPosition.y);
 		bnode = globalManager.poolManager:createLabel(true);
 	elseif(typeStr == "RichLabel")then
 		bnode = globalManager.poolManager:createRichLabel(true);
@@ -106,12 +105,19 @@ function Node:getChildByName(name,typeStr)
 end
 
 function Node:setParent(parentTransform)
-	self.transform:SetParent(parentTransform,false);
+	self._parentTr = parentTransform;
+	self:updateParent();
 end
 
 function Node:addNode(uiNode)
 	if(self.transform == nil or uiNode == nil)then return; end
 	uiNode:setParent(self.transform);
+end
+
+function Node:updateParent()
+	if(isNil(self.transform) or self._parentTr == nil)then return; end
+	globalConst.layerConst:setLayer(self.transform,self._parentTr.gameObject.layer,true);
+	self.transform:SetParent(self._parentTr,false);
 end
 
 function Node:setTouchEnabled(v)
@@ -322,6 +328,7 @@ end
 function Node:doClear()
 	self._isShow = true;
 
+	self._parentTr = nil;
 	self._cbTarget = nil;
 	self._clickCB = nil;
 	self._downCB = nil;

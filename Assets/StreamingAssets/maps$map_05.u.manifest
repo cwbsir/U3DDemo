@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 787213153
+CRC: 2504940338
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c9749f39419b253770dfd342141bdce5
+    Hash: 5bd2b4905067098e1a807786ed5b819c
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -73,5 +73,4 @@ Assets:
 - Assets/Resources/Maps/Compond/Map_05/Models/Map_08_stone04.FBX
 - Assets/Resources/Maps/Compond/Map_05/Models/Map_20004_water.FBX
 Dependencies:
-- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
 - D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/maps$common.u

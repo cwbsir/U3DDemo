@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3463013009
+CRC: 937857179
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 08c260f80838e25aa486e073b0439287
+    Hash: 130e7415c3b3537f307380234f5c8dfa
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -121,5 +121,4 @@ Assets:
 - Assets/Resources/Maps/Compond/Map_07/Models/Map_11_brick03.FBX
 - Assets/Resources/Maps/Compond/Map_07/Models/Map_11_Pillar01.FBX
 - Assets/Resources/Maps/Compond/Map_07/Models/Map_11_plant02.FBX
-Dependencies:
-- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
+Dependencies: []

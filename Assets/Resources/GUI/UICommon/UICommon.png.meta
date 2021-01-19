@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: e5c4a4621f65b2f418ce0b7eabad9dc3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UICommon
+    21300002: big
+    21300004: btn-passBtn
+    21300006: btn-score
+    21300008: btn-tipBtn
+    21300010: card
+    21300012: cardBg
+    21300014: farmer
+    21300016: land
+    21300018: litter
+    21300020: score
+    21300022: cardcolor1
+    21300024: cardcolor2
+    21300026: cardcolor3
+    21300028: cardcolor4
+    21300030: cardnum1
+    21300032: cardnum10
+    21300034: cardnum11
+    21300036: cardnum12
+    21300038: cardnum13
+    21300040: cardnum14
+    21300042: cardnum15
+    21300044: cardnum16
+    21300046: cardnum17
+    21300048: cardnum18
+    21300050: cardnum19
+    21300052: cardnum2
+    21300054: cardnum20
+    21300056: cardnum21
+    21300058: cardnum22
+    21300060: cardnum23
+    21300062: cardnum24
+    21300064: cardnum25
+    21300066: cardnum26
+    21300068: cardnum3
+    21300070: cardnum4
+    21300072: cardnum5
+    21300074: cardnum6
+    21300076: cardnum7
+    21300078: cardnum8
+    21300080: cardnum9
+    21300082: bigjoker
+    21300084: btn-scoreone
+    21300086: btn-scorepass
+    21300088: btn-scorethree
+    21300090: btn-scoretwo
+    21300092: farmerback
+    21300094: landback
+    21300096: litterjoker
+    21300098: cardnum10h
+    21300100: cardnum11h
+    21300102: cardnum12h
+    21300104: cardnum13h
+    21300106: cardnum1h
+    21300108: cardnum2h
+    21300110: cardnum3h
+    21300112: cardnum4h
+    21300114: cardnum5h
+    21300116: cardnum6h
+    21300118: cardnum7h
+    21300120: cardnum8h
+    21300122: cardnum9h
+    21300124: yaoganfeianya
+    21300126: yaoganzhongxin
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yaoganfeianya
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 69
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f7b1d78718d634fa053fcabb100a75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yaoganzhongxin
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 188
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d107e93e37f4664a81b9d3e62a80129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d5b6b5819f50de1439ebf7846654bfd9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: uicommon.u
+  assetBundleVariant: 

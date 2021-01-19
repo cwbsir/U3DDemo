@@ -1,7 +1,43 @@
 ManifestFileVersion: 0
-CRC: 4294468389
+CRC: 1808249484
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: commonitemui.u
+      Name: 20040.unity.u
+      Dependencies:
+        Dependency_0: maps$common.u
+        Dependency_1: maps$map_03.u
+    Info_1:
+      Name: maps$common.u
+      Dependencies:
+        Dependency_0: maps$map_04.u
+    Info_2:
+      Name: maps$map_01.u
+      Dependencies:
+        Dependency_0: maps$common.u
+    Info_3:
+      Name: maps$map_02.u
+      Dependencies: {}
+    Info_4:
+      Name: maps$map_03.u
+      Dependencies: {}
+    Info_5:
+      Name: maps$map_04.u
+      Dependencies: {}
+    Info_6:
+      Name: maps$map_05.u
+      Dependencies:
+        Dependency_0: maps$common.u
+    Info_7:
+      Name: maps$map_06.u
+      Dependencies:
+        Dependency_0: maps$common.u
+    Info_8:
+      Name: maps$map_07.u
+      Dependencies: {}
+    Info_9:
+      Name: maps$map_change.u
+      Dependencies: {}
+    Info_10:
+      Name: maps$map_choose.u
       Dependencies: {}

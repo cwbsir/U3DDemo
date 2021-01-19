@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4239727191
+CRC: 1836124747
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e13de5fd2599f374e06c60b40d6f9f1d
+    Hash: f4b997bc62fbdd3857771a2dd0656d5c
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -66,5 +66,4 @@ Assets:
 - Assets/Resources/Maps/Compond/Map_01/Models/Map_04_fence01.FBX
 - Assets/Resources/Maps/Compond/Map_01/Models/Map_04_mushroom03.FBX
 Dependencies:
-- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
 - D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/maps$common.u

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2015157269
+CRC: 103886085
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4fd8d12eaffec54565bd5b5cc87def06
+    Hash: d618e116f55b15cb315b994a3e9e226c
   TypeTreeHash:
     serializedVersion: 2
     Hash: cb5cff3a1350143ce413b676b0fb473f
@@ -50,5 +50,4 @@ Assets:
 - Assets/Resources/Maps/Compond/Map_Choose/Materials/Map_Choose_tx01.png
 - Assets/Resources/Maps/Compond/Map_Choose/Materials/Map_Choose_tx03.mat
 - Assets/Resources/Maps/Compond/Map_Choose/Materials/Map_Choose_tx02.mat
-Dependencies:
-- D:/MyProject/unity_project/U3DDemo/Assets/StreamingAssets/shader.u
+Dependencies: []

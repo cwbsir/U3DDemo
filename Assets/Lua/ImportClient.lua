@@ -47,6 +47,8 @@ require "utils/Clone"
 require "managers/TriggerManager"
 
 
+require "modules/mainMenu/MainMenu"
+
 
 require "modules/scene/SceneModule"
 

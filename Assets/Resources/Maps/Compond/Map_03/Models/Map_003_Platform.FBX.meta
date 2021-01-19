@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 1dd053c7751e02f47a64075036e49d25
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Map_06_ground12
+    100004: Map_06_pattern01
+    100006: Map_06_platform
+    100008: Map_06_wall09
+    100010: Object003
+    100012: Object004
+    100014: Object005
+    100016: Object006
+    100018: Object007
+    100020: Object008
+    100022: Object009
+    100024: Object010
+    100026: Map_06_stairs006
+    100028: Map_06_stairs007
+    100030: Map_06_stairs008
+    100032: Map_06_stairs009
+    100034: Map_06_stairs010
+    100036: Map_06_stairs011
+    100038: Map_06_stairs012
+    100040: Map_06_stairs05
+    100042: Map_06_stairs013
+    100044: Map_003_ground
+    100046: Map_003_platform
+    100048: Map_003_side
+    100050: Map_06_pattern04
+    100052: Map_06_pillars02
+    400000: //RootNode
+    400002: Map_06_ground12
+    400004: Map_06_pattern01
+    400006: Map_06_platform
+    400008: Map_06_wall09
+    400010: Object003
+    400012: Object004
+    400014: Object005
+    400016: Object006
+    400018: Object007
+    400020: Object008
+    400022: Object009
+    400024: Object010
+    400026: Map_06_stairs006
+    400028: Map_06_stairs007
+    400030: Map_06_stairs008
+    400032: Map_06_stairs009
+    400034: Map_06_stairs010
+    400036: Map_06_stairs011
+    400038: Map_06_stairs012
+    400040: Map_06_stairs05
+    400042: Map_06_stairs013
+    400044: Map_003_ground
+    400046: Map_003_platform
+    400048: Map_003_side
+    400050: Map_06_pattern04
+    400052: Map_06_pillars02
+    2300000: Map_06_ground12
+    2300002: Map_06_pattern01
+    2300004: Map_06_platform
+    2300006: Map_06_wall09
+    2300008: Object003
+    2300010: Object004
+    2300012: Object005
+    2300014: Object006
+    2300016: Object007
+    2300018: Object008
+    2300020: Object009
+    2300022: Object010
+    2300024: Map_06_stairs006
+    2300026: Map_06_stairs007
+    2300028: Map_06_stairs008
+    2300030: Map_06_stairs009
+    2300032: Map_06_stairs010
+    2300034: Map_06_stairs011
+    2300036: Map_06_stairs012
+    2300038: Map_06_stairs05
+    2300040: Map_06_stairs013
+    2300042: Map_003_ground
+    2300044: Map_003_platform
+    2300046: Map_003_side
+    2300048: Map_06_pattern04
+    2300050: Map_06_pillars02
+    3300000: Map_06_ground12
+    3300002: Map_06_pattern01
+    3300004: Map_06_platform
+    3300006: Map_06_wall09
+    3300008: Object003
+    3300010: Object004
+    3300012: Object005
+    3300014: Object006
+    3300016: Object007
+    3300018: Object008
+    3300020: Object009
+    3300022: Object010
+    3300024: Map_06_stairs006
+    3300026: Map_06_stairs007
+    3300028: Map_06_stairs008
+    3300030: Map_06_stairs009
+    3300032: Map_06_stairs010
+    3300034: Map_06_stairs011
+    3300036: Map_06_stairs012
+    3300038: Map_06_stairs05
+    3300040: Map_06_stairs013
+    3300042: Map_003_ground
+    3300044: Map_003_platform
+    3300046: Map_003_side
+    3300048: Map_06_pattern04
+    3300050: Map_06_pillars02
+    4300000: Map_06_platform
+    4300002: Map_06_ground12
+    4300004: Map_06_wall09
+    4300006: Map_06_pattern01
+    4300008: Object003
+    4300010: Object004
+    4300012: Object005
+    4300014: Object006
+    4300016: Object007
+    4300018: Object008
+    4300020: Object009
+    4300022: Object010
+    4300024: Map_06_stairs05
+    4300026: Map_06_stairs006
+    4300028: Map_06_stairs007
+    4300030: Map_06_stairs008
+    4300032: Map_06_stairs009
+    4300034: Map_06_stairs010
+    4300036: Map_06_stairs011
+    4300038: Map_06_stairs012
+    4300040: Map_06_stairs013
+    4300042: Map_003_ground
+    4300044: Map_003_platform
+    4300046: Map_06_pillars02
+    4300048: Map_003_side
+    4300050: Map_06_pattern04
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #28'
+    second: {fileID: 2100000, guid: 8ffdfcd9525c2164c91db00f249620ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #29'
+    second: {fileID: 2100000, guid: 3c21dfc1d8d705f40a2265520e13c79c, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: maps$map_03.u
+  assetBundleVariant: 
